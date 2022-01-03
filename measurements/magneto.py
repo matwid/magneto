@@ -24,24 +24,12 @@ class Magneto( FreeJob, GetSetItemsMixin ):
 
       last modified
     """
-    """
-    #Test setting for time saving reasons ###################################################################################################################
-    v_begin           = Range(low=0., high=10.,    value=0,    desc='begin [V]',  label='begin [V]',   mode='text', auto_set=False, enter_set=True)
-    v_end             = Range(low=0.001, high=10.,    value=1,      desc='end [V]',    label='end [V]',     mode='text', auto_set=False, enter_set=True)
-    v_bias            = Float(default_value=0,label=' ')
-    v_delta           = Range(low=0., high=10.,       value=.1,     desc='delta [V]',  label='delta [V]',   mode='text', auto_set=False, enter_set=True)
-    
-    x_axis           = Enum('control voltage','hall voltage','logIn voltage')
-    y_axis           = Enum('logIn voltage','control voltage', 'hall voltage')
-    #################################################################################################################################################
-    """
-
-    
+      
 
 
     x_axis           = Enum('Time', 'Channel 0','Channel 1', 'Channel 2')
     trigger_channel  = Enum('Channel 0','Channel 1', 'Channel 2')
-    trigger_level   = Float(default_value=2.0)
+    trigger_level   = Float(default_value=1.3)
     y_axis           = Enum('Channel 1', 'Channel 0','Channel 2', 'Time')
 
       
@@ -84,7 +72,7 @@ class Magneto( FreeJob, GetSetItemsMixin ):
 
     max_current = Float(default_value=10e-3, label='max current')
 
-    get_set_items=['__doc__', 'time_data', 'samples_per_channel', 'analog_in_0', 'analog_in_1', 'analog_in_2', 'analog_in_3', 'analog_in_4', 'analog_in_5', 'analog_in_6' ]
+    get_set_items=['__doc__', 'time_data', 'samples_per_channel', 'analog_in_0', 'analog_in_1', 'analog_in_2', 'analog_in_0_stack', 'analog_in_1_stack', ]
 
     traits_view = View(VGroup(HGroup(Item('start_button',   show_label=False),
                                      Item('stop_button',   show_label=False),
@@ -318,7 +306,7 @@ class Magneto( FreeJob, GetSetItemsMixin ):
     def save_all(self, filename):
         self.save(filename+'.pys')
         self.save(filename+'-ACSII.pys')
-        self.np.savetxt(filename+'.txt',(self.voltage,self.login_V_data))
+        np.savetxt(filename+'.txt',(self.voltage,self.login_V_data))
     
 
     def generate_voltage(self):
