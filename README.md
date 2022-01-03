@@ -1,15 +1,15 @@
 
-# MAGNETO: Electron Paramagnetic Resonance
+# MAGNETO: Magnetic field measurments to the moon
 
 
 The *bio magnetic signal detection project* provides the measurement software for detecting signal with an QSPIN OPM conducted at Center of Applied Quantum Technology at University of Stuttgart, Germany.
 
-![GUI screenshot](img/screenshot.png "The graphical user interface showing a DPPH spectrum.")
+![GUI screenshot](img/screenshot.png "The graphical user interface.")
 
 ## ToDo
 
 - get rid of enthought gui and move to QT
-- remove ghosting from other analog in channels [see this threat](https://knowledge.ni.com/KnowledgeArticleDetails?id=kA03q000000YHy6CAG&l=de-DE)
+
 
 ## Pre-Requisites
 
