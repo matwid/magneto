@@ -1,0 +1,684 @@
+2020-11-04 18:30:40,549 - epr.<module> - INFO - Starting logger.
+2020-11-04 18:31:06,008 - epr.<module> - INFO - Starting logger.
+2020-11-04 18:31:06,008 - epr.<module> - INFO - Starting logger.
+2020-11-04 18:37:09,124 - epr.<module> - INFO - Starting logger.
+2020-11-04 18:37:09,124 - epr.<module> - INFO - Starting logger.
+2020-11-04 18:37:09,124 - epr.<module> - INFO - Starting logger.
+2020-11-04 18:39:21,841 - epr.<module> - INFO - Starting logger.
+2020-11-04 18:41:06,345 - epr.<module> - INFO - Starting logger.
+2020-11-04 19:10:25,163 - epr.<module> - INFO - Starting logger.
+2020-11-04 19:10:25,163 - epr.<module> - INFO - Starting logger.
+2020-11-04 19:10:58,936 - epr.<module> - INFO - Starting logger.
+2020-11-04 19:10:58,936 - epr.<module> - INFO - Starting logger.
+2020-11-04 19:10:58,936 - epr.<module> - INFO - Starting logger.
+2020-11-04 19:11:40,355 - epr.<module> - INFO - Starting logger.
+2020-11-04 19:11:40,355 - epr.<module> - INFO - Starting logger.
+2020-11-04 19:11:40,355 - epr.<module> - INFO - Starting logger.
+2020-11-04 19:11:40,355 - epr.<module> - INFO - Starting logger.
+2020-11-04 19:11:53,177 - epr.<module> - INFO - Starting logger.
+2020-11-04 19:12:19,974 - epr.<module> - INFO - Starting logger.
+2020-11-04 19:12:19,974 - epr.<module> - INFO - Starting logger.
+2020-11-04 19:13:36,556 - epr.<module> - INFO - Starting logger.
+2020-11-04 19:13:36,556 - epr.<module> - INFO - Starting logger.
+2020-11-04 19:13:36,556 - epr.<module> - INFO - Starting logger.
+2020-11-04 19:14:15,796 - epr.<module> - INFO - Starting logger.
+2020-11-04 19:14:15,796 - epr.<module> - INFO - Starting logger.
+2020-11-04 19:14:15,796 - epr.<module> - INFO - Starting logger.
+2020-11-04 19:14:15,796 - epr.<module> - INFO - Starting logger.
+2020-11-04 19:17:39,434 - epr.<module> - INFO - Starting logger.
+2020-11-04 19:23:39,630 - epr.<module> - INFO - Starting logger.
+2020-11-04 19:25:29,769 - epr.<module> - INFO - Starting logger.
+2020-11-04 19:26:05,568 - epr.<module> - INFO - Starting logger.
+2020-11-04 19:26:05,849 - emod.start - INFO - Starting Job Manager.
+2020-11-04 19:26:05,951 - emod._process - DEBUG - No job running. No job in queue. Waiting for notification.
+2020-11-04 19:26:27,088 - epr.<module> - INFO - Starting logger.
+2020-11-04 19:26:27,088 - epr.<module> - INFO - Starting logger.
+2020-11-04 19:26:27,089 - emod.start - INFO - Starting Job Manager.
+2020-11-04 19:26:27,089 - emod.start - INFO - Starting Job Manager.
+2020-11-04 19:26:27,189 - emod._process - DEBUG - No job running. No job in queue. Waiting for notification.
+2020-11-04 19:26:27,189 - emod._process - DEBUG - No job running. No job in queue. Waiting for notification.
+2020-11-04 19:27:29,835 - epr.<module> - INFO - Starting logger.
+2020-11-04 19:27:29,835 - epr.<module> - INFO - Starting logger.
+2020-11-04 19:27:29,835 - epr.<module> - INFO - Starting logger.
+2020-11-04 19:27:29,840 - emod.start - INFO - Starting Job Manager.
+2020-11-04 19:27:29,840 - emod.start - INFO - Starting Job Manager.
+2020-11-04 19:27:29,840 - emod.start - INFO - Starting Job Manager.
+2020-11-04 19:27:29,860 - cron.run - INFO - Starting Cron Daemon.
+2020-11-04 19:27:29,860 - cron.run - INFO - Starting Cron Daemon.
+2020-11-04 19:27:29,860 - cron.run - INFO - Starting Cron Daemon.
+2020-11-04 19:27:29,942 - emod._process - DEBUG - No job running. No job in queue. Waiting for notification.
+2020-11-04 19:27:29,942 - emod._process - DEBUG - No job running. No job in queue. Waiting for notification.
+2020-11-04 19:27:29,942 - emod._process - DEBUG - No job running. No job in queue. Waiting for notification.
+2020-11-04 19:32:18,111 - epr.<module> - INFO - Starting logger.
+2020-11-04 19:32:18,111 - epr.<module> - INFO - Starting logger.
+2020-11-04 19:32:18,111 - epr.<module> - INFO - Starting logger.
+2020-11-04 19:32:18,111 - epr.<module> - INFO - Starting logger.
+2020-11-04 19:32:18,117 - emod.start - INFO - Starting Job Manager.
+2020-11-04 19:32:18,117 - emod.start - INFO - Starting Job Manager.
+2020-11-04 19:32:18,117 - emod.start - INFO - Starting Job Manager.
+2020-11-04 19:32:18,117 - emod.start - INFO - Starting Job Manager.
+2020-11-04 19:32:18,121 - cron.run - INFO - Starting Cron Daemon.
+2020-11-04 19:32:18,121 - cron.run - INFO - Starting Cron Daemon.
+2020-11-04 19:32:18,121 - cron.run - INFO - Starting Cron Daemon.
+2020-11-04 19:32:18,121 - cron.run - INFO - Starting Cron Daemon.
+2020-11-04 19:32:18,220 - emod._process - DEBUG - No job running. No job in queue. Waiting for notification.
+2020-11-04 19:32:18,220 - emod._process - DEBUG - No job running. No job in queue. Waiting for notification.
+2020-11-04 19:32:18,220 - emod._process - DEBUG - No job running. No job in queue. Waiting for notification.
+2020-11-04 19:32:18,220 - emod._process - DEBUG - No job running. No job in queue. Waiting for notification.
+2020-11-04 19:33:14,099 - epr.<module> - INFO - Starting logger.
+2020-11-04 19:33:14,099 - epr.<module> - INFO - Starting logger.
+2020-11-04 19:33:14,099 - epr.<module> - INFO - Starting logger.
+2020-11-04 19:33:14,099 - epr.<module> - INFO - Starting logger.
+2020-11-04 19:33:14,099 - epr.<module> - INFO - Starting logger.
+2020-11-04 19:33:14,101 - emod.start - INFO - Starting Job Manager.
+2020-11-04 19:33:14,101 - emod.start - INFO - Starting Job Manager.
+2020-11-04 19:33:14,101 - emod.start - INFO - Starting Job Manager.
+2020-11-04 19:33:14,101 - emod.start - INFO - Starting Job Manager.
+2020-11-04 19:33:14,101 - emod.start - INFO - Starting Job Manager.
+2020-11-04 19:33:14,111 - cron.run - INFO - Starting Cron Daemon.
+2020-11-04 19:33:14,111 - cron.run - INFO - Starting Cron Daemon.
+2020-11-04 19:33:14,111 - cron.run - INFO - Starting Cron Daemon.
+2020-11-04 19:33:14,111 - cron.run - INFO - Starting Cron Daemon.
+2020-11-04 19:33:14,111 - cron.run - INFO - Starting Cron Daemon.
+2020-11-04 19:33:14,211 - emod._process - DEBUG - No job running. No job in queue. Waiting for notification.
+2020-11-04 19:33:14,211 - emod._process - DEBUG - No job running. No job in queue. Waiting for notification.
+2020-11-04 19:33:14,211 - emod._process - DEBUG - No job running. No job in queue. Waiting for notification.
+2020-11-04 19:33:14,211 - emod._process - DEBUG - No job running. No job in queue. Waiting for notification.
+2020-11-04 19:33:14,211 - emod._process - DEBUG - No job running. No job in queue. Waiting for notification.
+2020-11-04 19:33:50,468 - epr.<module> - INFO - Starting logger.
+2020-11-04 19:33:50,468 - epr.<module> - INFO - Starting logger.
+2020-11-04 19:33:50,468 - epr.<module> - INFO - Starting logger.
+2020-11-04 19:33:50,468 - epr.<module> - INFO - Starting logger.
+2020-11-04 19:33:50,468 - epr.<module> - INFO - Starting logger.
+2020-11-04 19:33:50,468 - epr.<module> - INFO - Starting logger.
+2020-11-04 19:33:50,472 - emod.start - INFO - Starting Job Manager.
+2020-11-04 19:33:50,472 - emod.start - INFO - Starting Job Manager.
+2020-11-04 19:33:50,472 - emod.start - INFO - Starting Job Manager.
+2020-11-04 19:33:50,472 - emod.start - INFO - Starting Job Manager.
+2020-11-04 19:33:50,472 - emod.start - INFO - Starting Job Manager.
+2020-11-04 19:33:50,472 - emod.start - INFO - Starting Job Manager.
+2020-11-04 19:33:50,474 - cron.run - INFO - Starting Cron Daemon.
+2020-11-04 19:33:50,474 - cron.run - INFO - Starting Cron Daemon.
+2020-11-04 19:33:50,474 - cron.run - INFO - Starting Cron Daemon.
+2020-11-04 19:33:50,474 - cron.run - INFO - Starting Cron Daemon.
+2020-11-04 19:33:50,474 - cron.run - INFO - Starting Cron Daemon.
+2020-11-04 19:33:50,474 - cron.run - INFO - Starting Cron Daemon.
+2020-11-04 19:33:50,574 - emod._process - DEBUG - No job running. No job in queue. Waiting for notification.
+2020-11-04 19:33:50,574 - emod._process - DEBUG - No job running. No job in queue. Waiting for notification.
+2020-11-04 19:33:50,574 - emod._process - DEBUG - No job running. No job in queue. Waiting for notification.
+2020-11-04 19:33:50,574 - emod._process - DEBUG - No job running. No job in queue. Waiting for notification.
+2020-11-04 19:33:50,574 - emod._process - DEBUG - No job running. No job in queue. Waiting for notification.
+2020-11-04 19:33:50,574 - emod._process - DEBUG - No job running. No job in queue. Waiting for notification.
+2020-11-04 19:34:53,028 - epr.<module> - INFO - Starting logger.
+2020-11-04 19:34:53,406 - emod.start - INFO - Starting Job Manager.
+2020-11-04 19:34:53,410 - cron.run - INFO - Starting Cron Daemon.
+2020-11-04 19:34:53,506 - emod._process - DEBUG - No job running. No job in queue. Waiting for notification.
+2020-11-04 19:35:28,694 - epr.<module> - INFO - Starting logger.
+2020-11-04 19:35:28,694 - epr.<module> - INFO - Starting logger.
+2020-11-04 19:35:28,694 - emod.start - INFO - Starting Job Manager.
+2020-11-04 19:35:28,694 - emod.start - INFO - Starting Job Manager.
+2020-11-04 19:35:28,695 - cron.run - INFO - Starting Cron Daemon.
+2020-11-04 19:35:28,695 - cron.run - INFO - Starting Cron Daemon.
+2020-11-04 19:35:28,795 - emod._process - DEBUG - No job running. No job in queue. Waiting for notification.
+2020-11-04 19:35:28,795 - emod._process - DEBUG - No job running. No job in queue. Waiting for notification.
+2020-11-04 19:36:21,413 - epr.<module> - INFO - Starting logger.
+2020-11-04 19:36:21,413 - epr.<module> - INFO - Starting logger.
+2020-11-04 19:36:21,413 - epr.<module> - INFO - Starting logger.
+2020-11-04 19:36:21,413 - emod.start - INFO - Starting Job Manager.
+2020-11-04 19:36:21,413 - emod.start - INFO - Starting Job Manager.
+2020-11-04 19:36:21,413 - emod.start - INFO - Starting Job Manager.
+2020-11-04 19:36:21,416 - cron.run - INFO - Starting Cron Daemon.
+2020-11-04 19:36:21,416 - cron.run - INFO - Starting Cron Daemon.
+2020-11-04 19:36:21,416 - cron.run - INFO - Starting Cron Daemon.
+2020-11-04 19:36:21,515 - emod._process - DEBUG - No job running. No job in queue. Waiting for notification.
+2020-11-04 19:36:21,515 - emod._process - DEBUG - No job running. No job in queue. Waiting for notification.
+2020-11-04 19:36:21,515 - emod._process - DEBUG - No job running. No job in queue. Waiting for notification.
+2020-11-04 19:37:03,892 - epr.<module> - INFO - Starting logger.
+2020-11-04 19:37:03,892 - epr.<module> - INFO - Starting logger.
+2020-11-04 19:37:03,892 - epr.<module> - INFO - Starting logger.
+2020-11-04 19:37:03,892 - epr.<module> - INFO - Starting logger.
+2020-11-04 19:37:03,893 - emod.start - INFO - Starting Job Manager.
+2020-11-04 19:37:03,893 - emod.start - INFO - Starting Job Manager.
+2020-11-04 19:37:03,893 - emod.start - INFO - Starting Job Manager.
+2020-11-04 19:37:03,893 - emod.start - INFO - Starting Job Manager.
+2020-11-04 19:37:03,897 - cron.run - INFO - Starting Cron Daemon.
+2020-11-04 19:37:03,897 - cron.run - INFO - Starting Cron Daemon.
+2020-11-04 19:37:03,897 - cron.run - INFO - Starting Cron Daemon.
+2020-11-04 19:37:03,897 - cron.run - INFO - Starting Cron Daemon.
+2020-11-04 19:37:03,997 - emod._process - DEBUG - No job running. No job in queue. Waiting for notification.
+2020-11-04 19:37:03,997 - emod._process - DEBUG - No job running. No job in queue. Waiting for notification.
+2020-11-04 19:37:03,997 - emod._process - DEBUG - No job running. No job in queue. Waiting for notification.
+2020-11-04 19:37:03,997 - emod._process - DEBUG - No job running. No job in queue. Waiting for notification.
+2020-11-04 19:38:26,052 - epr.<module> - INFO - Starting logger.
+2020-11-04 19:38:26,356 - emod.start - INFO - Starting Job Manager.
+2020-11-04 19:38:26,358 - cron.run - INFO - Starting Cron Daemon.
+2020-11-04 19:38:26,457 - emod._process - DEBUG - No job running. No job in queue. Waiting for notification.
+2020-11-04 19:38:41,714 - epr.<module> - INFO - Starting logger.
+2020-11-04 19:38:41,714 - epr.<module> - INFO - Starting logger.
+2020-11-04 19:38:41,715 - emod.start - INFO - Starting Job Manager.
+2020-11-04 19:38:41,715 - emod.start - INFO - Starting Job Manager.
+2020-11-04 19:38:41,718 - cron.run - INFO - Starting Cron Daemon.
+2020-11-04 19:38:41,718 - cron.run - INFO - Starting Cron Daemon.
+2020-11-04 19:38:41,816 - emod._process - DEBUG - No job running. No job in queue. Waiting for notification.
+2020-11-04 19:38:41,816 - emod._process - DEBUG - No job running. No job in queue. Waiting for notification.
+2020-11-05 08:45:04,820 - epr.<module> - INFO - Starting logger.
+2020-11-05 08:45:05,299 - emod.start - INFO - Starting Job Manager.
+2020-11-05 08:45:05,304 - cron.run - INFO - Starting Cron Daemon.
+2020-11-05 08:45:05,400 - emod._process - DEBUG - No job running. No job in queue. Waiting for notification.
+2020-11-05 08:46:38,319 - epr.<module> - INFO - Starting logger.
+2020-11-05 08:46:38,577 - emod.start - INFO - Starting Job Manager.
+2020-11-05 08:46:38,579 - cron.run - INFO - Starting Cron Daemon.
+2020-11-05 08:46:38,678 - emod._process - DEBUG - No job running. No job in queue. Waiting for notification.
+2020-11-05 08:47:03,032 - epr.<module> - INFO - Starting logger.
+2020-11-05 08:47:03,032 - epr.<module> - INFO - Starting logger.
+2020-11-05 08:47:03,032 - emod.start - INFO - Starting Job Manager.
+2020-11-05 08:47:03,032 - emod.start - INFO - Starting Job Manager.
+2020-11-05 08:47:03,035 - cron.run - INFO - Starting Cron Daemon.
+2020-11-05 08:47:03,035 - cron.run - INFO - Starting Cron Daemon.
+2020-11-05 08:47:03,135 - emod._process - DEBUG - No job running. No job in queue. Waiting for notification.
+2020-11-05 08:47:03,135 - emod._process - DEBUG - No job running. No job in queue. Waiting for notification.
+2020-11-05 08:48:00,417 - epr.<module> - INFO - Starting logger.
+2020-11-05 08:48:00,417 - epr.<module> - INFO - Starting logger.
+2020-11-05 08:48:00,417 - epr.<module> - INFO - Starting logger.
+2020-11-05 08:48:00,418 - emod.start - INFO - Starting Job Manager.
+2020-11-05 08:48:00,418 - emod.start - INFO - Starting Job Manager.
+2020-11-05 08:48:00,418 - emod.start - INFO - Starting Job Manager.
+2020-11-05 08:48:00,421 - cron.run - INFO - Starting Cron Daemon.
+2020-11-05 08:48:00,421 - cron.run - INFO - Starting Cron Daemon.
+2020-11-05 08:48:00,421 - cron.run - INFO - Starting Cron Daemon.
+2020-11-05 08:48:00,521 - emod._process - DEBUG - No job running. No job in queue. Waiting for notification.
+2020-11-05 08:48:00,521 - emod._process - DEBUG - No job running. No job in queue. Waiting for notification.
+2020-11-05 08:48:00,521 - emod._process - DEBUG - No job running. No job in queue. Waiting for notification.
+2020-11-05 08:48:14,581 - epr.<module> - INFO - Starting logger.
+2020-11-05 08:48:14,581 - epr.<module> - INFO - Starting logger.
+2020-11-05 08:48:14,581 - epr.<module> - INFO - Starting logger.
+2020-11-05 08:48:14,581 - epr.<module> - INFO - Starting logger.
+2020-11-05 08:48:14,582 - emod.start - INFO - Starting Job Manager.
+2020-11-05 08:48:14,582 - emod.start - INFO - Starting Job Manager.
+2020-11-05 08:48:14,582 - emod.start - INFO - Starting Job Manager.
+2020-11-05 08:48:14,582 - emod.start - INFO - Starting Job Manager.
+2020-11-05 08:48:14,584 - cron.run - INFO - Starting Cron Daemon.
+2020-11-05 08:48:14,584 - cron.run - INFO - Starting Cron Daemon.
+2020-11-05 08:48:14,584 - cron.run - INFO - Starting Cron Daemon.
+2020-11-05 08:48:14,584 - cron.run - INFO - Starting Cron Daemon.
+2020-11-05 08:48:14,684 - emod._process - DEBUG - No job running. No job in queue. Waiting for notification.
+2020-11-05 08:48:14,684 - emod._process - DEBUG - No job running. No job in queue. Waiting for notification.
+2020-11-05 08:48:14,684 - emod._process - DEBUG - No job running. No job in queue. Waiting for notification.
+2020-11-05 08:48:14,684 - emod._process - DEBUG - No job running. No job in queue. Waiting for notification.
+2020-11-05 14:31:46,624 - epr.<module> - INFO - Starting logger.
+2020-11-05 14:34:17,813 - epr.<module> - INFO - Starting logger.
+2020-11-05 14:34:18,140 - emod.start - INFO - Starting Job Manager.
+2020-11-05 14:34:18,153 - cron.run - INFO - Starting Cron Daemon.
+2020-11-05 14:34:18,249 - emod._process - DEBUG - No job running. No job in queue. Waiting for notification.
+2020-11-05 14:40:15,725 - epr.<module> - INFO - Starting logger.
+2020-11-05 14:40:15,725 - epr.<module> - INFO - Starting logger.
+2020-11-05 14:40:15,744 - emod.start - INFO - Starting Job Manager.
+2020-11-05 14:40:15,744 - emod.start - INFO - Starting Job Manager.
+2020-11-05 14:40:15,748 - cron.run - INFO - Starting Cron Daemon.
+2020-11-05 14:40:15,748 - cron.run - INFO - Starting Cron Daemon.
+2020-11-05 14:40:15,862 - emod._process - DEBUG - No job running. No job in queue. Waiting for notification.
+2020-11-05 14:40:15,862 - emod._process - DEBUG - No job running. No job in queue. Waiting for notification.
+2020-11-05 14:45:35,304 - epr.<module> - INFO - Starting logger.
+2020-11-05 14:45:35,304 - epr.<module> - INFO - Starting logger.
+2020-11-05 14:45:35,311 - emod.start - INFO - Starting Job Manager.
+2020-11-05 14:45:35,311 - emod.start - INFO - Starting Job Manager.
+2020-11-05 14:45:35,314 - cron.run - INFO - Starting Cron Daemon.
+2020-11-05 14:45:35,314 - cron.run - INFO - Starting Cron Daemon.
+2020-11-05 14:45:35,420 - emod._process - DEBUG - No job running. No job in queue. Waiting for notification.
+2020-11-05 14:45:35,420 - emod._process - DEBUG - No job running. No job in queue. Waiting for notification.
+2021-12-27 10:46:36,953 - epr.<module> - INFO - Starting logger.
+2021-12-27 10:47:00,336 - epr.<module> - INFO - Starting logger.
+2021-12-27 10:47:01,752 - cron.run - INFO - Starting Cron Daemon.
+2021-12-27 11:01:24,552 - magneto.<module> - INFO - Starting logger.
+2021-12-27 11:01:24,847 - cron.run - INFO - Starting Cron Daemon.
+2021-12-27 11:04:03,146 - magneto.<module> - INFO - Starting logger.
+2021-12-27 11:04:03,449 - cron.run - INFO - Starting Cron Daemon.
+2021-12-27 11:04:04,374 - editor_factory._get_toolkit_editor - DEBUG - Can't import toolkit_object 'enum_editor:ReadonlyEditor': Can't import 'enum_editor:ReadonlyEditor' for backend qt4
+2021-12-27 11:04:04,623 - font_manager.<module> - DEBUG - Using fontManager instance from C:\Users\pi3-pc12\AppData\Roaming\Enthought\kiva\fontList.cache
+2021-12-27 11:04:04,624 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 10.0) to Verdana (C:\Windows\Fonts\verdana.ttf) with score of 1.300000
+2021-12-27 11:04:04,626 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 12.0) to Verdana (C:\Windows\Fonts\verdana.ttf) with score of 1.300000
+2021-12-27 15:50:56,028 - magneto.<module> - INFO - Starting logger.
+2021-12-27 15:50:57,443 - cron.run - INFO - Starting Cron Daemon.
+2021-12-27 15:50:58,183 - editor_factory._get_toolkit_editor - DEBUG - Can't import toolkit_object 'enum_editor:ReadonlyEditor': Can't import 'enum_editor:ReadonlyEditor' for backend qt4
+2021-12-27 15:50:58,427 - font_manager.<module> - DEBUG - Using fontManager instance from C:\Users\pi3-pc12\AppData\Roaming\Enthought\kiva\fontList.cache
+2021-12-27 15:50:58,428 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 10.0) to Verdana (C:\Windows\Fonts\verdana.ttf) with score of 1.300000
+2021-12-27 15:50:58,430 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 12.0) to Verdana (C:\Windows\Fonts\verdana.ttf) with score of 1.300000
+2021-12-27 15:51:05,497 - magneto._run - ERROR - Error in EPR measurement.
+Traceback (most recent call last):
+  File "c:\src\magnetometer\measurements\magneto.py", line 149, in _run
+    total_length = len(np.arange(self.t_begin, self.t_end, self.t_delta))
+AttributeError: 'Magneto' object has no attribute 't_begin'
+2021-12-27 15:52:31,498 - magneto.<module> - INFO - Starting logger.
+2021-12-27 15:52:31,797 - cron.run - INFO - Starting Cron Daemon.
+2021-12-27 15:52:32,410 - editor_factory._get_toolkit_editor - DEBUG - Can't import toolkit_object 'enum_editor:ReadonlyEditor': Can't import 'enum_editor:ReadonlyEditor' for backend qt4
+2021-12-27 15:52:32,627 - font_manager.<module> - DEBUG - Using fontManager instance from C:\Users\pi3-pc12\AppData\Roaming\Enthought\kiva\fontList.cache
+2021-12-27 15:52:32,628 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 10.0) to Verdana (C:\Windows\Fonts\verdana.ttf) with score of 1.300000
+2021-12-27 15:52:32,630 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 12.0) to Verdana (C:\Windows\Fonts\verdana.ttf) with score of 1.300000
+2021-12-27 15:52:41,288 - magneto._run - ERROR - Error in EPR measurement.
+Traceback (most recent call last):
+  File "c:\src\magnetometer\measurements\magneto.py", line 149, in _run
+    total_length = len(np.arange(self.t_begin, self.t_end, self.t_delta))
+AttributeError: 'Magneto' object has no attribute 't_begin'
+2021-12-27 15:54:21,254 - magneto.<module> - INFO - Starting logger.
+2021-12-27 15:54:21,554 - cron.run - INFO - Starting Cron Daemon.
+2021-12-27 15:54:22,160 - editor_factory._get_toolkit_editor - DEBUG - Can't import toolkit_object 'enum_editor:ReadonlyEditor': Can't import 'enum_editor:ReadonlyEditor' for backend qt4
+2021-12-27 15:54:22,375 - font_manager.<module> - DEBUG - Using fontManager instance from C:\Users\pi3-pc12\AppData\Roaming\Enthought\kiva\fontList.cache
+2021-12-27 15:54:22,376 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 10.0) to Verdana (C:\Windows\Fonts\verdana.ttf) with score of 1.300000
+2021-12-27 15:54:22,377 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 12.0) to Verdana (C:\Windows\Fonts\verdana.ttf) with score of 1.300000
+2021-12-27 15:54:30,250 - utility.stop - DEBUG - attempt to stop thread <StoppableThread(Magneto21-12-27_15h54m26, started 17940)>
+2021-12-27 15:54:30,251 - magneto._run - DEBUG - Caught stop signal. Exiting.
+2021-12-27 15:54:30,251 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.magneto.Magneto object at 0x00000227AA71B4C8>, trait: stop_button, old value: <undefined>, new value: 0
+Traceback (most recent call last):
+  File "C:\Users\pi3-pc12\.conda\envs\pi3diamond64\lib\site-packages\traits\trait_notifiers.py", line 342, in __call__
+    self.handler(*args)
+  File "c:\src\magnetometer\tools\emod.py", line 111, in _stop_button_fired
+    self.decrease_voltage()
+AttributeError: 'Magneto' object has no attribute 'decrease_voltage'
+2021-12-27 15:56:51,523 - magneto.<module> - INFO - Starting logger.
+2021-12-27 15:56:51,827 - cron.run - INFO - Starting Cron Daemon.
+2021-12-27 15:56:52,436 - editor_factory._get_toolkit_editor - DEBUG - Can't import toolkit_object 'enum_editor:ReadonlyEditor': Can't import 'enum_editor:ReadonlyEditor' for backend qt4
+2021-12-27 15:56:52,650 - font_manager.<module> - DEBUG - Using fontManager instance from C:\Users\pi3-pc12\AppData\Roaming\Enthought\kiva\fontList.cache
+2021-12-27 15:56:52,651 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 10.0) to Verdana (C:\Windows\Fonts\verdana.ttf) with score of 1.300000
+2021-12-27 15:56:52,653 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 12.0) to Verdana (C:\Windows\Fonts\verdana.ttf) with score of 1.300000
+2021-12-27 15:57:01,451 - utility.stop - DEBUG - attempt to stop thread <StoppableThread(Magneto21-12-27_15h56m54, started 5004)>
+2021-12-27 15:57:01,451 - magneto._run - DEBUG - Caught stop signal. Exiting.
+2021-12-27 15:57:01,452 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.magneto.Magneto object at 0x0000021716FDC5E8>, trait: stop_button, old value: <undefined>, new value: 0
+Traceback (most recent call last):
+  File "C:\Users\pi3-pc12\.conda\envs\pi3diamond64\lib\site-packages\traits\trait_notifiers.py", line 342, in __call__
+    self.handler(*args)
+  File "c:\src\magnetometer\tools\emod.py", line 111, in _stop_button_fired
+    self.decrease_voltage()
+AttributeError: 'Magneto' object has no attribute 'decrease_voltage'
+2021-12-27 15:58:42,077 - magneto.<module> - INFO - Starting logger.
+2021-12-27 15:58:42,380 - cron.run - INFO - Starting Cron Daemon.
+2021-12-27 15:58:42,998 - editor_factory._get_toolkit_editor - DEBUG - Can't import toolkit_object 'enum_editor:ReadonlyEditor': Can't import 'enum_editor:ReadonlyEditor' for backend qt4
+2021-12-27 15:58:43,214 - font_manager.<module> - DEBUG - Using fontManager instance from C:\Users\pi3-pc12\AppData\Roaming\Enthought\kiva\fontList.cache
+2021-12-27 15:58:43,216 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 10.0) to Verdana (C:\Windows\Fonts\verdana.ttf) with score of 1.300000
+2021-12-27 15:58:43,217 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 12.0) to Verdana (C:\Windows\Fonts\verdana.ttf) with score of 1.300000
+2021-12-27 15:58:50,450 - utility.stop - DEBUG - attempt to stop thread <StoppableThread(Magneto21-12-27_15h58m44, started 16644)>
+2021-12-27 15:58:50,450 - magneto._run - DEBUG - Caught stop signal. Exiting.
+2021-12-27 15:58:59,468 - utility.stop - DEBUG - attempt to stop thread <StoppableThread(Magneto21-12-27_15h58m52, started 16320)>
+2021-12-27 15:58:59,468 - magneto._run - DEBUG - Caught stop signal. Exiting.
+2021-12-27 16:00:37,171 - magneto.<module> - INFO - Starting logger.
+2021-12-27 16:00:37,466 - cron.run - INFO - Starting Cron Daemon.
+2021-12-27 16:00:38,076 - editor_factory._get_toolkit_editor - DEBUG - Can't import toolkit_object 'enum_editor:ReadonlyEditor': Can't import 'enum_editor:ReadonlyEditor' for backend qt4
+2021-12-27 16:00:38,288 - font_manager.<module> - DEBUG - Using fontManager instance from C:\Users\pi3-pc12\AppData\Roaming\Enthought\kiva\fontList.cache
+2021-12-27 16:00:38,289 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 10.0) to Verdana (C:\Windows\Fonts\verdana.ttf) with score of 1.300000
+2021-12-27 16:00:38,290 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 12.0) to Verdana (C:\Windows\Fonts\verdana.ttf) with score of 1.300000
+2021-12-27 16:00:48,107 - utility.stop - DEBUG - attempt to stop thread <StoppableThread(Magneto21-12-27_16h00m45, started 15284)>
+2021-12-27 16:00:48,107 - magneto._run - DEBUG - Caught stop signal. Exiting.
+2021-12-27 16:03:10,310 - utility.stop - DEBUG - attempt to stop thread <StoppableThread(Magneto21-12-27_16h02m40, started 16648)>
+2021-12-27 16:03:10,310 - magneto._run - DEBUG - Caught stop signal. Exiting.
+2021-12-27 16:08:04,335 - magneto.<module> - INFO - Starting logger.
+2021-12-27 16:08:04,627 - cron.run - INFO - Starting Cron Daemon.
+2021-12-27 16:08:05,274 - editor_factory._get_toolkit_editor - DEBUG - Can't import toolkit_object 'enum_editor:ReadonlyEditor': Can't import 'enum_editor:ReadonlyEditor' for backend qt4
+2021-12-27 16:08:05,485 - font_manager.<module> - DEBUG - Using fontManager instance from C:\Users\pi3-pc12\AppData\Roaming\Enthought\kiva\fontList.cache
+2021-12-27 16:08:05,486 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 10.0) to Verdana (C:\Windows\Fonts\verdana.ttf) with score of 1.300000
+2021-12-27 16:08:05,487 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 12.0) to Verdana (C:\Windows\Fonts\verdana.ttf) with score of 1.300000
+2021-12-27 16:09:04,418 - magneto.<module> - INFO - Starting logger.
+2021-12-27 16:09:04,717 - cron.run - INFO - Starting Cron Daemon.
+2021-12-27 16:09:05,342 - editor_factory._get_toolkit_editor - DEBUG - Can't import toolkit_object 'enum_editor:ReadonlyEditor': Can't import 'enum_editor:ReadonlyEditor' for backend qt4
+2021-12-27 16:09:05,557 - font_manager.<module> - DEBUG - Using fontManager instance from C:\Users\pi3-pc12\AppData\Roaming\Enthought\kiva\fontList.cache
+2021-12-27 16:09:05,558 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 10.0) to Verdana (C:\Windows\Fonts\verdana.ttf) with score of 1.300000
+2021-12-27 16:09:05,559 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 12.0) to Verdana (C:\Windows\Fonts\verdana.ttf) with score of 1.300000
+2021-12-27 16:09:20,190 - utility.stop - DEBUG - attempt to stop thread <StoppableThread(Magneto21-12-27_16h09m08, started 8748)>
+2021-12-27 16:09:20,191 - magneto._run - DEBUG - Caught stop signal. Exiting.
+2021-12-27 16:14:07,241 - magneto.<module> - INFO - Starting logger.
+2021-12-27 16:14:07,549 - cron.run - INFO - Starting Cron Daemon.
+2021-12-27 16:14:08,180 - editor_factory._get_toolkit_editor - DEBUG - Can't import toolkit_object 'enum_editor:ReadonlyEditor': Can't import 'enum_editor:ReadonlyEditor' for backend qt4
+2021-12-27 16:14:49,681 - magneto.<module> - INFO - Starting logger.
+2021-12-27 16:14:49,978 - cron.run - INFO - Starting Cron Daemon.
+2021-12-27 16:14:50,572 - editor_factory._get_toolkit_editor - DEBUG - Can't import toolkit_object 'enum_editor:ReadonlyEditor': Can't import 'enum_editor:ReadonlyEditor' for backend qt4
+2021-12-27 16:15:17,827 - magneto.<module> - INFO - Starting logger.
+2021-12-27 16:15:18,126 - cron.run - INFO - Starting Cron Daemon.
+2021-12-27 16:15:18,733 - editor_factory._get_toolkit_editor - DEBUG - Can't import toolkit_object 'enum_editor:ReadonlyEditor': Can't import 'enum_editor:ReadonlyEditor' for backend qt4
+2021-12-27 16:15:18,943 - font_manager.<module> - DEBUG - Using fontManager instance from C:\Users\pi3-pc12\AppData\Roaming\Enthought\kiva\fontList.cache
+2021-12-27 16:15:18,944 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 10.0) to Verdana (C:\Windows\Fonts\verdana.ttf) with score of 1.300000
+2021-12-27 16:15:18,945 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 12.0) to Verdana (C:\Windows\Fonts\verdana.ttf) with score of 1.300000
+2021-12-27 16:15:21,070 - magneto._run - ERROR - Error in EPR measurement.
+Traceback (most recent call last):
+  File "c:\src\magnetometer\measurements\magneto.py", line 132, in _run
+    self.thread.stop_request.wait(self.seconds_per_point)
+AttributeError: 'Magneto' object has no attribute 'seconds_per_point'
+2021-12-27 16:15:53,395 - magneto.<module> - INFO - Starting logger.
+2021-12-27 16:15:53,697 - cron.run - INFO - Starting Cron Daemon.
+2021-12-27 16:15:54,334 - editor_factory._get_toolkit_editor - DEBUG - Can't import toolkit_object 'enum_editor:ReadonlyEditor': Can't import 'enum_editor:ReadonlyEditor' for backend qt4
+2021-12-27 16:15:54,542 - font_manager.<module> - DEBUG - Using fontManager instance from C:\Users\pi3-pc12\AppData\Roaming\Enthought\kiva\fontList.cache
+2021-12-27 16:15:54,542 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 10.0) to Verdana (C:\Windows\Fonts\verdana.ttf) with score of 1.300000
+2021-12-27 16:15:54,544 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 12.0) to Verdana (C:\Windows\Fonts\verdana.ttf) with score of 1.300000
+2021-12-27 16:16:02,387 - utility.stop - DEBUG - attempt to stop thread <StoppableThread(Magneto21-12-27_16h15m56, started 18716)>
+2021-12-27 16:16:02,387 - magneto._run - DEBUG - Caught stop signal. Exiting.
+2021-12-27 16:16:36,411 - magneto.<module> - INFO - Starting logger.
+2021-12-27 16:16:36,713 - cron.run - INFO - Starting Cron Daemon.
+2021-12-27 16:16:37,366 - editor_factory._get_toolkit_editor - DEBUG - Can't import toolkit_object 'enum_editor:ReadonlyEditor': Can't import 'enum_editor:ReadonlyEditor' for backend qt4
+2021-12-27 16:16:37,579 - font_manager.<module> - DEBUG - Using fontManager instance from C:\Users\pi3-pc12\AppData\Roaming\Enthought\kiva\fontList.cache
+2021-12-27 16:16:37,580 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 10.0) to Verdana (C:\Windows\Fonts\verdana.ttf) with score of 1.300000
+2021-12-27 16:16:37,581 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 12.0) to Verdana (C:\Windows\Fonts\verdana.ttf) with score of 1.300000
+2021-12-27 16:16:42,171 - utility.stop - DEBUG - attempt to stop thread <StoppableThread(Magneto21-12-27_16h16m38, started 13928)>
+2021-12-27 16:16:42,172 - magneto._run - DEBUG - Caught stop signal. Exiting.
+2021-12-27 16:19:20,416 - utility.stop - DEBUG - attempt to stop thread <StoppableThread(Magneto21-12-27_16h19m11, started 3544)>
+2021-12-27 16:19:20,416 - magneto._run - DEBUG - Caught stop signal. Exiting.
+2021-12-27 16:20:04,622 - magneto.<module> - INFO - Starting logger.
+2021-12-27 16:20:04,920 - cron.run - INFO - Starting Cron Daemon.
+2021-12-27 16:20:05,522 - editor_factory._get_toolkit_editor - DEBUG - Can't import toolkit_object 'enum_editor:ReadonlyEditor': Can't import 'enum_editor:ReadonlyEditor' for backend qt4
+2021-12-27 16:20:05,720 - font_manager.<module> - DEBUG - Using fontManager instance from C:\Users\pi3-pc12\AppData\Roaming\Enthought\kiva\fontList.cache
+2021-12-27 16:20:05,721 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 10.0) to Verdana (C:\Windows\Fonts\verdana.ttf) with score of 1.300000
+2021-12-27 16:20:05,722 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 12.0) to Verdana (C:\Windows\Fonts\verdana.ttf) with score of 1.300000
+2021-12-27 16:20:27,810 - utility.stop - DEBUG - attempt to stop thread <StoppableThread(Magneto21-12-27_16h20m07, started 7920)>
+2021-12-27 16:20:27,811 - magneto._run - DEBUG - Caught stop signal. Exiting.
+2021-12-27 16:22:59,862 - magneto.<module> - INFO - Starting logger.
+2021-12-27 16:23:00,170 - cron.run - INFO - Starting Cron Daemon.
+2021-12-27 16:23:00,757 - editor_factory._get_toolkit_editor - DEBUG - Can't import toolkit_object 'enum_editor:ReadonlyEditor': Can't import 'enum_editor:ReadonlyEditor' for backend qt4
+2021-12-27 16:23:41,986 - magneto.<module> - INFO - Starting logger.
+2021-12-27 16:23:42,276 - cron.run - INFO - Starting Cron Daemon.
+2021-12-27 16:23:42,952 - editor_factory._get_toolkit_editor - DEBUG - Can't import toolkit_object 'enum_editor:ReadonlyEditor': Can't import 'enum_editor:ReadonlyEditor' for backend qt4
+2021-12-27 16:23:43,153 - font_manager.<module> - DEBUG - Using fontManager instance from C:\Users\pi3-pc12\AppData\Roaming\Enthought\kiva\fontList.cache
+2021-12-27 16:23:43,154 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 10.0) to Verdana (C:\Windows\Fonts\verdana.ttf) with score of 1.300000
+2021-12-27 16:23:43,155 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 12.0) to Verdana (C:\Windows\Fonts\verdana.ttf) with score of 1.300000
+2021-12-27 16:23:49,316 - utility.stop - DEBUG - attempt to stop thread <StoppableThread(Magneto21-12-27_16h23m44, started 16584)>
+2021-12-27 16:23:49,316 - magneto._run - DEBUG - Caught stop signal. Exiting.
+2021-12-28 13:42:13,455 - magneto.<module> - INFO - Starting logger.
+2021-12-28 13:42:14,794 - cron.run - INFO - Starting Cron Daemon.
+2021-12-28 13:42:16,032 - editor_factory._get_toolkit_editor - DEBUG - Can't import toolkit_object 'enum_editor:ReadonlyEditor': Can't import 'enum_editor:ReadonlyEditor' for backend qt4
+2021-12-28 13:42:16,263 - font_manager.<module> - DEBUG - Using fontManager instance from C:\Users\pi3-pc12\AppData\Roaming\Enthought\kiva\fontList.cache
+2021-12-28 13:42:16,264 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 10.0) to Verdana (C:\Windows\Fonts\verdana.ttf) with score of 1.300000
+2021-12-28 13:42:16,265 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 12.0) to Verdana (C:\Windows\Fonts\verdana.ttf) with score of 1.300000
+2021-12-28 13:47:16,352 - magneto.<module> - INFO - Starting logger.
+2021-12-28 13:47:16,653 - cron.run - INFO - Starting Cron Daemon.
+2021-12-28 13:47:17,243 - editor_factory._get_toolkit_editor - DEBUG - Can't import toolkit_object 'enum_editor:ReadonlyEditor': Can't import 'enum_editor:ReadonlyEditor' for backend qt4
+2021-12-28 13:47:17,446 - font_manager.<module> - DEBUG - Using fontManager instance from C:\Users\pi3-pc12\AppData\Roaming\Enthought\kiva\fontList.cache
+2021-12-28 13:47:17,447 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 10.0) to Verdana (C:\Windows\Fonts\verdana.ttf) with score of 1.300000
+2021-12-28 13:47:17,448 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 12.0) to Verdana (C:\Windows\Fonts\verdana.ttf) with score of 1.300000
+2021-12-28 13:53:35,213 - magneto.<module> - INFO - Starting logger.
+2021-12-28 13:53:35,511 - cron.run - INFO - Starting Cron Daemon.
+2021-12-28 13:53:36,107 - editor_factory._get_toolkit_editor - DEBUG - Can't import toolkit_object 'enum_editor:ReadonlyEditor': Can't import 'enum_editor:ReadonlyEditor' for backend qt4
+2021-12-28 13:53:36,311 - font_manager.<module> - DEBUG - Using fontManager instance from C:\Users\pi3-pc12\AppData\Roaming\Enthought\kiva\fontList.cache
+2021-12-28 13:53:36,312 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 10.0) to Verdana (C:\Windows\Fonts\verdana.ttf) with score of 1.300000
+2021-12-28 13:53:36,313 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 12.0) to Verdana (C:\Windows\Fonts\verdana.ttf) with score of 1.300000
+2021-12-28 13:53:37,858 - magneto._run - ERROR - Error in measurement.
+Traceback (most recent call last):
+  File "c:\src\magnetometer\measurements\magneto.py", line 154, in _run
+    self.analog_in_0          = np.append(self.analog_in_0,     analog_in_0)
+AttributeError: 'Magneto' object has no attribute 'analog_in_0'
+2021-12-28 13:54:33,637 - magneto.<module> - INFO - Starting logger.
+2021-12-28 13:54:33,921 - cron.run - INFO - Starting Cron Daemon.
+2021-12-28 13:54:34,529 - editor_factory._get_toolkit_editor - DEBUG - Can't import toolkit_object 'enum_editor:ReadonlyEditor': Can't import 'enum_editor:ReadonlyEditor' for backend qt4
+2021-12-28 13:54:34,728 - font_manager.<module> - DEBUG - Using fontManager instance from C:\Users\pi3-pc12\AppData\Roaming\Enthought\kiva\fontList.cache
+2021-12-28 13:54:34,729 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 10.0) to Verdana (C:\Windows\Fonts\verdana.ttf) with score of 1.300000
+2021-12-28 13:54:34,730 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 12.0) to Verdana (C:\Windows\Fonts\verdana.ttf) with score of 1.300000
+2021-12-28 13:55:28,744 - utility.stop - DEBUG - attempt to stop thread <StoppableThread(Magneto21-12-28_13h54m36, started 17088)>
+2021-12-28 13:55:28,744 - magneto._run - DEBUG - Caught stop signal. Exiting.
+2021-12-28 13:57:23,922 - utility.stop - DEBUG - attempt to stop thread <StoppableThread(Magneto21-12-28_13h56m49, started 16552)>
+2021-12-28 13:57:23,923 - magneto._run - DEBUG - Caught stop signal. Exiting.
+2021-12-28 13:57:30,357 - utility.stop - DEBUG - attempt to stop thread <StoppableThread(Magneto21-12-28_13h57m24, started 15720)>
+2021-12-28 13:57:30,358 - magneto._run - DEBUG - Caught stop signal. Exiting.
+2021-12-28 14:12:01,409 - utility.stop - DEBUG - attempt to stop thread <StoppableThread(Magneto21-12-28_14h11m59, started 12080)>
+2021-12-28 14:12:01,410 - magneto._run - DEBUG - Caught stop signal. Exiting.
+2021-12-28 14:12:08,950 - utility.stop - DEBUG - attempt to stop thread <StoppableThread(Magneto21-12-28_14h12m06, started 14768)>
+2021-12-28 14:12:08,952 - magneto._run - DEBUG - Caught stop signal. Exiting.
+2021-12-28 14:19:14,513 - magneto.<module> - INFO - Starting logger.
+2021-12-28 14:19:14,805 - cron.run - INFO - Starting Cron Daemon.
+2021-12-28 14:19:15,391 - editor_factory._get_toolkit_editor - DEBUG - Can't import toolkit_object 'enum_editor:ReadonlyEditor': Can't import 'enum_editor:ReadonlyEditor' for backend qt4
+2021-12-28 14:19:15,590 - font_manager.<module> - DEBUG - Using fontManager instance from C:\Users\pi3-pc12\AppData\Roaming\Enthought\kiva\fontList.cache
+2021-12-28 14:19:15,591 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 10.0) to Verdana (C:\Windows\Fonts\verdana.ttf) with score of 1.300000
+2021-12-28 14:19:15,592 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 12.0) to Verdana (C:\Windows\Fonts\verdana.ttf) with score of 1.300000
+2021-12-28 14:19:45,911 - utility.stop - DEBUG - attempt to stop thread <StoppableThread(Magneto21-12-28_14h19m17, started 5024)>
+2021-12-28 14:19:45,912 - magneto._run - DEBUG - Caught stop signal. Exiting.
+2021-12-28 14:20:11,415 - magneto.<module> - INFO - Starting logger.
+2021-12-28 14:20:11,696 - cron.run - INFO - Starting Cron Daemon.
+2021-12-28 14:20:12,315 - editor_factory._get_toolkit_editor - DEBUG - Can't import toolkit_object 'enum_editor:ReadonlyEditor': Can't import 'enum_editor:ReadonlyEditor' for backend qt4
+2021-12-28 14:20:12,512 - font_manager.<module> - DEBUG - Using fontManager instance from C:\Users\pi3-pc12\AppData\Roaming\Enthought\kiva\fontList.cache
+2021-12-28 14:20:12,513 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 10.0) to Verdana (C:\Windows\Fonts\verdana.ttf) with score of 1.300000
+2021-12-28 14:20:12,514 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 12.0) to Verdana (C:\Windows\Fonts\verdana.ttf) with score of 1.300000
+2021-12-28 14:20:17,605 - utility.stop - DEBUG - attempt to stop thread <StoppableThread(Magneto21-12-28_14h20m14, started 7636)>
+2021-12-28 14:20:17,605 - magneto._run - DEBUG - Caught stop signal. Exiting.
+2021-12-28 14:25:28,362 - utility.stop - DEBUG - attempt to stop thread <StoppableThread(Magneto21-12-28_14h25m25, started 14516)>
+2021-12-28 14:25:28,363 - magneto._run - DEBUG - Caught stop signal. Exiting.
+2021-12-28 14:26:44,916 - utility.stop - DEBUG - attempt to stop thread <StoppableThread(Magneto21-12-28_14h26m36, started 7200)>
+2021-12-28 14:26:44,917 - magneto._run - DEBUG - Caught stop signal. Exiting.
+2021-12-28 14:26:48,241 - magneto._run - ERROR - Error in measurement.
+Traceback (most recent call last):
+  File "c:\src\magnetometer\measurements\magneto.py", line 146, in _run
+    measured_data = self.task_in.read(number_of_samples_per_channel=self.samples_per_channel)
+  File "C:\Users\pi3-pc12\.conda\envs\pi3diamond64\lib\site-packages\nidaqmx\task.py", line 627, in read
+    data = numpy.zeros(array_shape, dtype=numpy.float64)
+TypeError: 'float' object cannot be interpreted as an integer
+2021-12-28 14:27:02,897 - magneto._run - ERROR - Error in measurement.
+Traceback (most recent call last):
+  File "c:\src\magnetometer\measurements\magneto.py", line 146, in _run
+    measured_data = self.task_in.read(number_of_samples_per_channel=self.samples_per_channel)
+  File "C:\Users\pi3-pc12\.conda\envs\pi3diamond64\lib\site-packages\nidaqmx\task.py", line 627, in read
+    data = numpy.zeros(array_shape, dtype=numpy.float64)
+TypeError: 'float' object cannot be interpreted as an integer
+2021-12-28 14:27:08,257 - magneto._run - ERROR - Error in measurement.
+Traceback (most recent call last):
+  File "c:\src\magnetometer\measurements\magneto.py", line 146, in _run
+    measured_data = self.task_in.read(number_of_samples_per_channel=self.samples_per_channel)
+  File "C:\Users\pi3-pc12\.conda\envs\pi3diamond64\lib\site-packages\nidaqmx\task.py", line 627, in read
+    data = numpy.zeros(array_shape, dtype=numpy.float64)
+TypeError: 'float' object cannot be interpreted as an integer
+2021-12-28 14:28:19,664 - magneto.<module> - INFO - Starting logger.
+2021-12-28 14:28:19,949 - cron.run - INFO - Starting Cron Daemon.
+2021-12-28 14:28:20,555 - editor_factory._get_toolkit_editor - DEBUG - Can't import toolkit_object 'enum_editor:ReadonlyEditor': Can't import 'enum_editor:ReadonlyEditor' for backend qt4
+2021-12-28 14:28:20,756 - font_manager.<module> - DEBUG - Using fontManager instance from C:\Users\pi3-pc12\AppData\Roaming\Enthought\kiva\fontList.cache
+2021-12-28 14:28:20,757 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 10.0) to Verdana (C:\Windows\Fonts\verdana.ttf) with score of 1.300000
+2021-12-28 14:28:20,758 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 12.0) to Verdana (C:\Windows\Fonts\verdana.ttf) with score of 1.300000
+2021-12-28 14:28:26,044 - utility.stop - DEBUG - attempt to stop thread <StoppableThread(Magneto21-12-28_14h28m22, started 13840)>
+2021-12-28 14:28:26,045 - magneto._run - DEBUG - Caught stop signal. Exiting.
+2021-12-28 14:30:43,660 - magneto.<module> - INFO - Starting logger.
+2021-12-28 14:30:43,957 - cron.run - INFO - Starting Cron Daemon.
+2021-12-28 14:30:44,540 - editor_factory._get_toolkit_editor - DEBUG - Can't import toolkit_object 'enum_editor:ReadonlyEditor': Can't import 'enum_editor:ReadonlyEditor' for backend qt4
+2021-12-28 14:30:44,739 - font_manager.<module> - DEBUG - Using fontManager instance from C:\Users\pi3-pc12\AppData\Roaming\Enthought\kiva\fontList.cache
+2021-12-28 14:30:44,740 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 10.0) to Verdana (C:\Windows\Fonts\verdana.ttf) with score of 1.300000
+2021-12-28 14:30:44,741 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 12.0) to Verdana (C:\Windows\Fonts\verdana.ttf) with score of 1.300000
+2021-12-28 14:30:54,342 - utility.stop - DEBUG - attempt to stop thread <StoppableThread(Magneto21-12-28_14h30m52, started 17428)>
+2021-12-28 14:30:54,343 - magneto._run - DEBUG - Caught stop signal. Exiting.
+2021-12-28 14:31:00,323 - utility.stop - DEBUG - attempt to stop thread <StoppableThread(Magneto21-12-28_14h30m57, started 17180)>
+2021-12-28 14:31:00,323 - magneto._run - DEBUG - Caught stop signal. Exiting.
+2021-12-28 14:31:27,565 - utility.stop - DEBUG - attempt to stop thread <StoppableThread(Magneto21-12-28_14h31m24, started 16320)>
+2021-12-28 14:31:27,565 - magneto._run - DEBUG - Caught stop signal. Exiting.
+2021-12-28 14:45:18,108 - utility.stop - DEBUG - attempt to stop thread <StoppableThread(Magneto21-12-28_14h45m11, started 14984)>
+2021-12-28 14:45:18,108 - magneto._run - DEBUG - Caught stop signal. Exiting.
+2021-12-28 14:46:22,047 - utility.stop - DEBUG - attempt to stop thread <StoppableThread(Magneto21-12-28_14h45m45, started 14236)>
+2021-12-28 14:46:22,047 - magneto._run - DEBUG - Caught stop signal. Exiting.
+2021-12-28 14:47:21,134 - utility.stop - DEBUG - attempt to stop thread <StoppableThread(Magneto21-12-28_14h46m56, started 18332)>
+2021-12-28 14:47:21,135 - magneto._run - DEBUG - Caught stop signal. Exiting.
+2021-12-28 14:47:58,338 - utility.stop - DEBUG - attempt to stop thread <StoppableThread(Magneto21-12-28_14h47m39, started 18784)>
+2021-12-28 14:47:58,338 - magneto._run - DEBUG - Caught stop signal. Exiting.
+2021-12-28 14:48:28,889 - utility.stop - DEBUG - attempt to stop thread <StoppableThread(Magneto21-12-28_14h48m01, started 18312)>
+2021-12-28 14:48:28,890 - magneto._run - DEBUG - Caught stop signal. Exiting.
+2021-12-29 11:52:30,444 - magneto.<module> - INFO - Starting logger.
+2021-12-29 11:52:31,822 - cron.run - INFO - Starting Cron Daemon.
+2021-12-29 11:52:33,012 - editor_factory._get_toolkit_editor - DEBUG - Can't import toolkit_object 'enum_editor:ReadonlyEditor': Can't import 'enum_editor:ReadonlyEditor' for backend qt4
+2021-12-29 11:52:33,227 - font_manager.<module> - DEBUG - Using fontManager instance from C:\Users\pi3-pc12\AppData\Roaming\Enthought\kiva\fontList.cache
+2021-12-29 11:52:33,228 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 10.0) to Verdana (C:\Windows\Fonts\verdana.ttf) with score of 1.300000
+2021-12-29 11:52:33,229 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 12.0) to Verdana (C:\Windows\Fonts\verdana.ttf) with score of 1.300000
+2021-12-29 11:53:25,955 - magneto.<module> - INFO - Starting logger.
+2021-12-29 11:53:27,276 - cron.run - INFO - Starting Cron Daemon.
+2021-12-29 11:53:28,445 - editor_factory._get_toolkit_editor - DEBUG - Can't import toolkit_object 'enum_editor:ReadonlyEditor': Can't import 'enum_editor:ReadonlyEditor' for backend qt4
+2021-12-29 11:53:28,657 - font_manager.<module> - DEBUG - Using fontManager instance from C:\Users\pi3-pc12\AppData\Roaming\Enthought\kiva\fontList.cache
+2021-12-29 11:53:28,658 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 10.0) to Verdana (C:\Windows\Fonts\verdana.ttf) with score of 1.300000
+2021-12-29 11:53:28,660 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 12.0) to Verdana (C:\Windows\Fonts\verdana.ttf) with score of 1.300000
+2021-12-29 11:58:40,150 - magneto.<module> - INFO - Starting logger.
+2021-12-29 11:58:40,449 - cron.run - INFO - Starting Cron Daemon.
+2021-12-29 11:58:41,050 - editor_factory._get_toolkit_editor - DEBUG - Can't import toolkit_object 'enum_editor:ReadonlyEditor': Can't import 'enum_editor:ReadonlyEditor' for backend qt4
+2021-12-29 11:58:41,248 - font_manager.<module> - DEBUG - Using fontManager instance from C:\Users\pi3-pc12\AppData\Roaming\Enthought\kiva\fontList.cache
+2021-12-29 11:58:41,249 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 10.0) to Verdana (C:\Windows\Fonts\verdana.ttf) with score of 1.300000
+2021-12-29 11:58:41,250 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 12.0) to Verdana (C:\Windows\Fonts\verdana.ttf) with score of 1.300000
+2021-12-29 11:59:19,973 - magneto.<module> - INFO - Starting logger.
+2021-12-29 11:59:20,264 - cron.run - INFO - Starting Cron Daemon.
+2021-12-29 11:59:20,857 - editor_factory._get_toolkit_editor - DEBUG - Can't import toolkit_object 'enum_editor:ReadonlyEditor': Can't import 'enum_editor:ReadonlyEditor' for backend qt4
+2021-12-29 11:59:21,052 - font_manager.<module> - DEBUG - Using fontManager instance from C:\Users\pi3-pc12\AppData\Roaming\Enthought\kiva\fontList.cache
+2021-12-29 11:59:21,053 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 10.0) to Verdana (C:\Windows\Fonts\verdana.ttf) with score of 1.300000
+2021-12-29 11:59:21,054 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 12.0) to Verdana (C:\Windows\Fonts\verdana.ttf) with score of 1.300000
+2021-12-29 12:02:38,938 - magneto.<module> - INFO - Starting logger.
+2021-12-29 12:02:39,219 - cron.run - INFO - Starting Cron Daemon.
+2021-12-29 12:02:39,810 - editor_factory._get_toolkit_editor - DEBUG - Can't import toolkit_object 'enum_editor:ReadonlyEditor': Can't import 'enum_editor:ReadonlyEditor' for backend qt4
+2021-12-29 12:02:40,004 - font_manager.<module> - DEBUG - Using fontManager instance from C:\Users\pi3-pc12\AppData\Roaming\Enthought\kiva\fontList.cache
+2021-12-29 12:02:40,005 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 10.0) to Verdana (C:\Windows\Fonts\verdana.ttf) with score of 1.300000
+2021-12-29 12:02:40,006 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 12.0) to Verdana (C:\Windows\Fonts\verdana.ttf) with score of 1.300000
+2021-12-29 12:05:11,265 - magneto.<module> - INFO - Starting logger.
+2021-12-29 12:05:11,553 - cron.run - INFO - Starting Cron Daemon.
+2021-12-29 12:05:12,159 - editor_factory._get_toolkit_editor - DEBUG - Can't import toolkit_object 'enum_editor:ReadonlyEditor': Can't import 'enum_editor:ReadonlyEditor' for backend qt4
+2021-12-29 12:05:12,361 - font_manager.<module> - DEBUG - Using fontManager instance from C:\Users\pi3-pc12\AppData\Roaming\Enthought\kiva\fontList.cache
+2021-12-29 12:05:12,362 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 10.0) to Verdana (C:\Windows\Fonts\verdana.ttf) with score of 1.300000
+2021-12-29 12:05:12,363 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 12.0) to Verdana (C:\Windows\Fonts\verdana.ttf) with score of 1.300000
+2021-12-29 12:17:21,297 - magneto.<module> - INFO - Starting logger.
+2021-12-29 12:17:21,591 - cron.run - INFO - Starting Cron Daemon.
+2021-12-29 12:18:21,999 - magneto.<module> - INFO - Starting logger.
+2021-12-29 12:18:22,294 - cron.run - INFO - Starting Cron Daemon.
+2021-12-29 12:18:43,871 - magneto.<module> - INFO - Starting logger.
+2021-12-29 12:18:44,159 - cron.run - INFO - Starting Cron Daemon.
+2021-12-29 12:18:44,770 - editor_factory._get_toolkit_editor - DEBUG - Can't import toolkit_object 'enum_editor:ReadonlyEditor': Can't import 'enum_editor:ReadonlyEditor' for backend qt4
+2021-12-29 12:18:44,984 - font_manager.<module> - DEBUG - Using fontManager instance from C:\Users\pi3-pc12\AppData\Roaming\Enthought\kiva\fontList.cache
+2021-12-29 12:18:44,985 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 10.0) to Verdana (C:\Windows\Fonts\verdana.ttf) with score of 1.300000
+2021-12-29 12:18:44,986 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 12.0) to Verdana (C:\Windows\Fonts\verdana.ttf) with score of 1.300000
+2021-12-29 12:18:48,607 - utility.stop - DEBUG - attempt to stop thread <StoppableThread(Magneto21-12-29_12h18m47, started 19184)>
+2021-12-29 12:18:48,608 - magneto._run - DEBUG - Caught stop signal. Exiting.
+2021-12-29 12:28:53,152 - utility.stop - DEBUG - attempt to stop thread <StoppableThread(Magneto21-12-29_12h28m47, started 13852)>
+2021-12-29 12:28:53,152 - magneto._run - DEBUG - Caught stop signal. Exiting.
+2021-12-29 12:30:09,612 - utility.stop - DEBUG - attempt to stop thread <StoppableThread(Magneto21-12-29_12h29m54, started 1612)>
+2021-12-29 12:30:09,612 - magneto._run - DEBUG - Caught stop signal. Exiting.
+2021-12-29 12:30:39,936 - utility.stop - DEBUG - attempt to stop thread <StoppableThread(Magneto21-12-29_12h30m26, started 17236)>
+2021-12-29 12:30:39,937 - magneto._run - DEBUG - Caught stop signal. Exiting.
+2021-12-29 12:31:21,718 - utility.stop - DEBUG - attempt to stop thread <StoppableThread(Magneto21-12-29_12h31m16, started 9968)>
+2021-12-29 12:31:21,719 - magneto._run - DEBUG - Caught stop signal. Exiting.
+2021-12-29 12:32:27,555 - magneto.<module> - INFO - Starting logger.
+2021-12-29 12:32:27,845 - cron.run - INFO - Starting Cron Daemon.
+2021-12-29 12:32:28,438 - editor_factory._get_toolkit_editor - DEBUG - Can't import toolkit_object 'enum_editor:ReadonlyEditor': Can't import 'enum_editor:ReadonlyEditor' for backend qt4
+2021-12-29 12:32:28,648 - font_manager.<module> - DEBUG - Using fontManager instance from C:\Users\pi3-pc12\AppData\Roaming\Enthought\kiva\fontList.cache
+2021-12-29 12:32:28,649 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 10.0) to Verdana (C:\Windows\Fonts\verdana.ttf) with score of 1.300000
+2021-12-29 12:32:28,650 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 12.0) to Verdana (C:\Windows\Fonts\verdana.ttf) with score of 1.300000
+2021-12-29 12:32:58,037 - magneto.<module> - INFO - Starting logger.
+2021-12-29 12:32:58,337 - cron.run - INFO - Starting Cron Daemon.
+2021-12-29 12:32:58,939 - editor_factory._get_toolkit_editor - DEBUG - Can't import toolkit_object 'enum_editor:ReadonlyEditor': Can't import 'enum_editor:ReadonlyEditor' for backend qt4
+2021-12-29 12:32:59,149 - font_manager.<module> - DEBUG - Using fontManager instance from C:\Users\pi3-pc12\AppData\Roaming\Enthought\kiva\fontList.cache
+2021-12-29 12:32:59,150 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 10.0) to Verdana (C:\Windows\Fonts\verdana.ttf) with score of 1.300000
+2021-12-29 12:32:59,152 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 12.0) to Verdana (C:\Windows\Fonts\verdana.ttf) with score of 1.300000
+2021-12-29 12:36:56,062 - magneto.<module> - INFO - Starting logger.
+2021-12-29 12:36:56,365 - cron.run - INFO - Starting Cron Daemon.
+2021-12-29 12:36:57,021 - editor_factory._get_toolkit_editor - DEBUG - Can't import toolkit_object 'enum_editor:ReadonlyEditor': Can't import 'enum_editor:ReadonlyEditor' for backend qt4
+2021-12-29 12:36:57,239 - font_manager.<module> - DEBUG - Using fontManager instance from C:\Users\pi3-pc12\AppData\Roaming\Enthought\kiva\fontList.cache
+2021-12-29 12:36:57,240 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 10.0) to Verdana (C:\Windows\Fonts\verdana.ttf) with score of 1.300000
+2021-12-29 12:36:57,241 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 12.0) to Verdana (C:\Windows\Fonts\verdana.ttf) with score of 1.300000
+2021-12-29 12:37:24,068 - magneto.<module> - INFO - Starting logger.
+2021-12-29 12:37:24,389 - cron.run - INFO - Starting Cron Daemon.
+2021-12-29 12:37:24,968 - editor_factory._get_toolkit_editor - DEBUG - Can't import toolkit_object 'enum_editor:ReadonlyEditor': Can't import 'enum_editor:ReadonlyEditor' for backend qt4
+2021-12-29 12:37:25,177 - font_manager.<module> - DEBUG - Using fontManager instance from C:\Users\pi3-pc12\AppData\Roaming\Enthought\kiva\fontList.cache
+2021-12-29 12:37:25,178 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 10.0) to Verdana (C:\Windows\Fonts\verdana.ttf) with score of 1.300000
+2021-12-29 12:37:25,180 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 12.0) to Verdana (C:\Windows\Fonts\verdana.ttf) with score of 1.300000
+2021-12-29 13:44:28,144 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.magneto.Magneto object at 0x0000019A7B6DEDC8>, trait: stop_button, old value: <undefined>, new value: 0
+Traceback (most recent call last):
+  File "C:\Users\pi3-pc12\.conda\envs\pi3diamond64\lib\site-packages\traits\trait_notifiers.py", line 342, in __call__
+    self.handler(*args)
+  File "c:\src\magnetometer\tools\emod.py", line 108, in _stop_button_fired
+    if self.measurment_finished is 'false':
+AttributeError: 'Magneto' object has no attribute 'measurment_finished'
+2021-12-29 13:44:52,548 - magneto.<module> - INFO - Starting logger.
+2021-12-29 13:44:52,890 - cron.run - INFO - Starting Cron Daemon.
+2021-12-29 13:44:53,521 - editor_factory._get_toolkit_editor - DEBUG - Can't import toolkit_object 'enum_editor:ReadonlyEditor': Can't import 'enum_editor:ReadonlyEditor' for backend qt4
+2021-12-29 13:44:53,753 - font_manager.<module> - DEBUG - Using fontManager instance from C:\Users\pi3-pc12\AppData\Roaming\Enthought\kiva\fontList.cache
+2021-12-29 13:44:53,755 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 10.0) to Verdana (C:\Windows\Fonts\verdana.ttf) with score of 1.300000
+2021-12-29 13:44:53,757 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 12.0) to Verdana (C:\Windows\Fonts\verdana.ttf) with score of 1.300000
+2021-12-29 13:45:25,150 - utility.stop - DEBUG - attempt to stop thread <StoppableThread(Magneto21-12-29_13h44m54, started 3544)>
+2021-12-29 13:45:25,151 - magneto._run - DEBUG - Caught stop signal. Exiting.
+2021-12-29 15:17:39,404 - magneto_starter.<module> - INFO - Starting logger.
+2021-12-29 15:17:39,717 - cron.run - INFO - Starting Cron Daemon.
+2021-12-29 15:17:40,319 - editor_factory._get_toolkit_editor - DEBUG - Can't import toolkit_object 'enum_editor:ReadonlyEditor': Can't import 'enum_editor:ReadonlyEditor' for backend qt4
+2021-12-29 15:17:40,523 - font_manager.<module> - DEBUG - Using fontManager instance from C:\Users\pi3-pc12\AppData\Roaming\Enthought\kiva\fontList.cache
+2021-12-29 15:17:40,524 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 10.0) to Verdana (C:\Windows\Fonts\verdana.ttf) with score of 1.300000
+2021-12-29 15:17:40,526 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 12.0) to Verdana (C:\Windows\Fonts\verdana.ttf) with score of 1.300000
+2021-12-29 15:17:55,330 - utility.stop - DEBUG - attempt to stop thread <StoppableThread(Magneto21-12-29_15h17m50, started 16480)>
+2021-12-29 15:17:55,330 - magneto._run - DEBUG - Caught stop signal. Exiting.
+2021-12-29 15:24:17,082 - magneto_starter.<module> - INFO - Starting logger.
+2021-12-29 15:24:17,369 - cron.run - INFO - Starting Cron Daemon.
+2021-12-29 15:24:17,952 - editor_factory._get_toolkit_editor - DEBUG - Can't import toolkit_object 'enum_editor:ReadonlyEditor': Can't import 'enum_editor:ReadonlyEditor' for backend qt4
+2021-12-29 15:24:18,171 - font_manager.<module> - DEBUG - Using fontManager instance from C:\Users\pi3-pc12\AppData\Roaming\Enthought\kiva\fontList.cache
+2021-12-29 15:24:18,172 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 10.0) to Verdana (C:\Windows\Fonts\verdana.ttf) with score of 1.300000
+2021-12-29 15:24:18,174 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 12.0) to Verdana (C:\Windows\Fonts\verdana.ttf) with score of 1.300000
+2021-12-29 15:28:18,903 - magneto_starter.<module> - INFO - Starting logger.
+2021-12-29 15:28:19,223 - cron.run - INFO - Starting Cron Daemon.
+2021-12-29 15:28:19,841 - editor_factory._get_toolkit_editor - DEBUG - Can't import toolkit_object 'enum_editor:ReadonlyEditor': Can't import 'enum_editor:ReadonlyEditor' for backend qt4
+2021-12-29 15:28:20,042 - font_manager.<module> - DEBUG - Using fontManager instance from C:\Users\pi3-pc12\AppData\Roaming\Enthought\kiva\fontList.cache
+2021-12-29 15:28:20,042 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 10.0) to Verdana (C:\Windows\Fonts\verdana.ttf) with score of 1.300000
+2021-12-29 15:28:20,044 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 12.0) to Verdana (C:\Windows\Fonts\verdana.ttf) with score of 1.300000
+2021-12-29 15:28:23,289 - utility.stop - DEBUG - attempt to stop thread <StoppableThread(Magneto21-12-29_15h28m21, started 19872)>
+2021-12-29 15:28:23,290 - magneto._run - DEBUG - Caught stop signal. Exiting.
+2021-12-29 15:32:56,383 - magneto_starter.<module> - INFO - Starting logger.
+2021-12-29 15:32:56,695 - cron.run - INFO - Starting Cron Daemon.
+2021-12-29 15:32:57,293 - editor_factory._get_toolkit_editor - DEBUG - Can't import toolkit_object 'enum_editor:ReadonlyEditor': Can't import 'enum_editor:ReadonlyEditor' for backend qt4
+2021-12-29 15:32:57,496 - font_manager.<module> - DEBUG - Using fontManager instance from C:\Users\pi3-pc12\AppData\Roaming\Enthought\kiva\fontList.cache
+2021-12-29 15:32:57,497 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 10.0) to Verdana (C:\Windows\Fonts\verdana.ttf) with score of 1.300000
+2021-12-29 15:32:57,498 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 12.0) to Verdana (C:\Windows\Fonts\verdana.ttf) with score of 1.300000
+2021-12-29 15:33:00,307 - utility.stop - DEBUG - attempt to stop thread <StoppableThread(Magneto21-12-29_15h32m59, started 15060)>
+2021-12-29 15:33:00,307 - magneto._run - DEBUG - Caught stop signal. Exiting.
+2021-12-29 20:19:10,141 - magneto_starter.<module> - INFO - Starting logger.
+2021-12-29 20:19:10,482 - cron.run - INFO - Starting Cron Daemon.
+2021-12-29 20:19:11,132 - editor_factory._get_toolkit_editor - DEBUG - Can't import toolkit_object 'enum_editor:ReadonlyEditor': Can't import 'enum_editor:ReadonlyEditor' for backend qt4
+2021-12-29 20:19:11,337 - font_manager.<module> - DEBUG - Using fontManager instance from C:\Users\pi3-pc12\AppData\Roaming\Enthought\kiva\fontList.cache
+2021-12-29 20:19:11,338 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 10.0) to Verdana (C:\Windows\Fonts\verdana.ttf) with score of 1.300000
+2021-12-29 20:19:11,340 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 12.0) to Verdana (C:\Windows\Fonts\verdana.ttf) with score of 1.300000
+2021-12-29 20:20:08,914 - utility.stop - DEBUG - attempt to stop thread <StoppableThread(Magneto21-12-29_20h19m13, started 7232)>
+2021-12-29 20:20:08,914 - magneto._run - DEBUG - Caught stop signal. Exiting.
+2021-12-30 15:56:53,551 - magneto_starter.<module> - INFO - Starting logger.
+2021-12-30 15:56:54,939 - cron.run - INFO - Starting Cron Daemon.
+2021-12-30 15:57:18,157 - magneto_starter.<module> - INFO - Starting logger.
+2021-12-30 15:57:18,440 - cron.run - INFO - Starting Cron Daemon.
+2021-12-30 15:57:19,064 - editor_factory._get_toolkit_editor - DEBUG - Can't import toolkit_object 'enum_editor:ReadonlyEditor': Can't import 'enum_editor:ReadonlyEditor' for backend qt4
+2021-12-30 15:57:19,273 - font_manager.<module> - DEBUG - Using fontManager instance from C:\Users\pi3-pc12\AppData\Roaming\Enthought\kiva\fontList.cache
+2021-12-30 15:57:19,274 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 10.0) to Verdana (C:\Windows\Fonts\verdana.ttf) with score of 1.300000
+2021-12-30 15:57:19,275 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 12.0) to Verdana (C:\Windows\Fonts\verdana.ttf) with score of 1.300000
+2021-12-30 15:57:24,943 - utility.stop - DEBUG - attempt to stop thread <StoppableThread(Magneto21-12-30_15h57m21, started 7584)>
+2021-12-30 15:57:24,951 - magneto._run - DEBUG - Caught stop signal. Exiting.
+2021-12-30 16:10:28,484 - magneto_starter.<module> - INFO - Starting logger.
+2021-12-30 16:10:28,789 - cron.run - INFO - Starting Cron Daemon.
+2021-12-30 16:10:29,375 - editor_factory._get_toolkit_editor - DEBUG - Can't import toolkit_object 'enum_editor:ReadonlyEditor': Can't import 'enum_editor:ReadonlyEditor' for backend qt4
+2021-12-30 16:10:29,580 - font_manager.<module> - DEBUG - Using fontManager instance from C:\Users\pi3-pc12\AppData\Roaming\Enthought\kiva\fontList.cache
+2021-12-30 16:10:29,581 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 10.0) to Verdana (C:\Windows\Fonts\verdana.ttf) with score of 1.300000
+2021-12-30 16:10:29,583 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 12.0) to Verdana (C:\Windows\Fonts\verdana.ttf) with score of 1.300000
+2022-01-02 16:35:18,771 - magneto_starter.<module> - INFO - Starting logger.
+2022-01-02 16:35:20,197 - cron.run - INFO - Starting Cron Daemon.
+2022-01-02 16:35:20,900 - editor_factory._get_toolkit_editor - DEBUG - Can't import toolkit_object 'enum_editor:ReadonlyEditor': Can't import 'enum_editor:ReadonlyEditor' for backend qt4
+2022-01-02 16:35:21,143 - font_manager.<module> - DEBUG - Using fontManager instance from C:\Users\pi3-pc12\AppData\Roaming\Enthought\kiva\fontList.cache
+2022-01-02 16:35:21,144 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 10.0) to Verdana (C:\Windows\Fonts\verdana.ttf) with score of 1.300000
+2022-01-02 16:35:21,145 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 12.0) to Verdana (C:\Windows\Fonts\verdana.ttf) with score of 1.300000
+2022-01-02 16:36:55,827 - magneto_starter.<module> - INFO - Starting logger.
+2022-01-02 16:36:56,118 - cron.run - INFO - Starting Cron Daemon.
+2022-01-02 16:36:56,738 - editor_factory._get_toolkit_editor - DEBUG - Can't import toolkit_object 'enum_editor:ReadonlyEditor': Can't import 'enum_editor:ReadonlyEditor' for backend qt4
+2022-01-02 16:36:56,960 - font_manager.<module> - DEBUG - Using fontManager instance from C:\Users\pi3-pc12\AppData\Roaming\Enthought\kiva\fontList.cache
+2022-01-02 16:36:56,962 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 10.0) to Verdana (C:\Windows\Fonts\verdana.ttf) with score of 1.300000
+2022-01-02 16:36:56,964 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 12.0) to Verdana (C:\Windows\Fonts\verdana.ttf) with score of 1.300000
+2022-01-02 16:37:02,931 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.magneto.Magneto object at 0x000001DF88BFC228>, trait: stop_button, old value: <undefined>, new value: 0
+Traceback (most recent call last):
+  File "C:\Users\pi3-pc12\.conda\envs\pi3diamond64\lib\site-packages\traits\trait_notifiers.py", line 342, in __call__
+    self.handler(*args)
+  File "c:\src\magnetometer\tools\emod.py", line 108, in _stop_button_fired
+    if self.measurment_finished is 'false':
+AttributeError: 'Magneto' object has no attribute 'measurment_finished'
+2022-01-02 16:39:25,097 - magneto_starter.<module> - INFO - Starting logger.
+2022-01-02 16:39:25,386 - cron.run - INFO - Starting Cron Daemon.
+2022-01-02 16:39:25,992 - editor_factory._get_toolkit_editor - DEBUG - Can't import toolkit_object 'enum_editor:ReadonlyEditor': Can't import 'enum_editor:ReadonlyEditor' for backend qt4
+2022-01-02 16:39:26,198 - font_manager.<module> - DEBUG - Using fontManager instance from C:\Users\pi3-pc12\AppData\Roaming\Enthought\kiva\fontList.cache
+2022-01-02 16:39:26,199 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 10.0) to Verdana (C:\Windows\Fonts\verdana.ttf) with score of 1.300000
+2022-01-02 16:39:26,201 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 12.0) to Verdana (C:\Windows\Fonts\verdana.ttf) with score of 1.300000
+2022-01-02 16:39:32,066 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.magneto.Magneto object at 0x0000027AB7520108>, trait: stop_button, old value: <undefined>, new value: 0
+Traceback (most recent call last):
+  File "C:\Users\pi3-pc12\.conda\envs\pi3diamond64\lib\site-packages\traits\trait_notifiers.py", line 342, in __call__
+    self.handler(*args)
+  File "c:\src\magnetometer\tools\emod.py", line 108, in _stop_button_fired
+    if self.measurment_finished is 'false':
+AttributeError: 'Magneto' object has no attribute 'measurment_finished'
+2022-01-02 16:40:18,849 - magneto_starter.<module> - INFO - Starting logger.
+2022-01-02 16:40:19,156 - cron.run - INFO - Starting Cron Daemon.
+2022-01-02 16:40:19,759 - editor_factory._get_toolkit_editor - DEBUG - Can't import toolkit_object 'enum_editor:ReadonlyEditor': Can't import 'enum_editor:ReadonlyEditor' for backend qt4
+2022-01-02 16:40:19,962 - font_manager.<module> - DEBUG - Using fontManager instance from C:\Users\pi3-pc12\AppData\Roaming\Enthought\kiva\fontList.cache
+2022-01-02 16:40:19,963 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 10.0) to Verdana (C:\Windows\Fonts\verdana.ttf) with score of 1.300000
+2022-01-02 16:40:19,964 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 12.0) to Verdana (C:\Windows\Fonts\verdana.ttf) with score of 1.300000
+2022-01-02 16:40:29,725 - utility.stop - DEBUG - attempt to stop thread <StoppableThread(Magneto22-01-02_16h40m24, started 14836)>
+2022-01-02 16:40:29,745 - magneto._run - DEBUG - Caught stop signal. Exiting.
+2022-01-02 16:45:34,309 - magneto_starter.<module> - INFO - Starting logger.
+2022-01-02 16:45:34,603 - cron.run - INFO - Starting Cron Daemon.
+2022-01-02 16:45:35,299 - editor_factory._get_toolkit_editor - DEBUG - Can't import toolkit_object 'enum_editor:ReadonlyEditor': Can't import 'enum_editor:ReadonlyEditor' for backend qt4
+2022-01-02 16:45:35,505 - font_manager.<module> - DEBUG - Using fontManager instance from C:\Users\pi3-pc12\AppData\Roaming\Enthought\kiva\fontList.cache
+2022-01-02 16:45:35,506 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 10.0) to Verdana (C:\Windows\Fonts\verdana.ttf) with score of 1.300000
+2022-01-02 16:45:35,508 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 12.0) to Verdana (C:\Windows\Fonts\verdana.ttf) with score of 1.300000

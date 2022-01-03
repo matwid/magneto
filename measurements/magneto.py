@@ -3,7 +3,7 @@ import numpy as np
 
 from tools.chaco_addons import SavePlot as Plot, SaveTool
 
-from traits.api       import SingletonHasTraits, Instance, Range, Bool, Array, Str, Enum, Button, on_trait_change, Trait, Float
+from traits.api       import SingletonHasTraits, Instance, Range, Bool, Array, Str, Enum, Button, on_trait_change, Trait, Float, Int
 from traitsui.api     import View, Item, Group, HGroup, VGroup, VSplit, Tabbed, EnumEditor
 from enable.api       import ComponentEditor, Component
 from chaco.api        import PlotAxis, CMapImagePlot, ColorBar, LinearMapper, ArrayPlotData, Spectral
@@ -39,27 +39,37 @@ class Magneto( FreeJob, GetSetItemsMixin ):
     
 
 
-    x_axis           = Enum('Time', 'Channel 1','Channel 2', 'Channel 3')
-    y_axis           = Enum('Channel 1', 'Channel 2','Channel 3', 'Time')
+    x_axis           = Enum('Time', 'Channel 0','Channel 1', 'Channel 2')
+    trigger_channel  = Enum('Channel 0','Channel 1', 'Channel 2')
+    trigger_level   = Float(default_value=2.0)
+    y_axis           = Enum('Channel 1', 'Channel 0','Channel 2', 'Time')
 
       
 
     v_divisions       = Range(low=0, high=1e6,       value=100,     desc='divisions [#]',  label='divisions [#]',   mode='text', auto_set=False, enter_set=True)
     v_reset           = Float(default_value=0, label='reset voltage')
 
-    samples_per_channel = Float(default_value=20, desc='samples_per_channel', label='samples_per_channel', mode='text', auto_set=False, enter_set=True)
+    samples_per_channel = Int(default_value=20, desc='samples_per_channel', label='samples_per_channel', mode='text', auto_set=False, enter_set=True)
     proceed           = Float(default_value=0.0, label='proceed [%]')
  
 
     scale             = Enum('lin','log',value='log', desc='scale')
     plot_tpe          = Enum('line', 'scatter')
 
+    use_trigger       = Bool(True)
 
-    time_data       = Array()
-    analog_in_1       = Array()#
-    analog_in_2       = Array()#
-    analog_in_3       = Array()#    
 
+    time_data         = Array()
+    analog_in_0       = Array()
+    analog_in_1       = Array()
+    analog_in_2       = Array()
+    analog_in_3       = Array()  
+    analog_in_4       = Array()
+    analog_in_5       = Array()
+    analog_in_6       = Array()
+
+    analog_in_0_stack = Array()
+    analog_in_1_stack = Array()
 
     x_data_plot       = Array()#for ploting
     y_data_plot       = Array()#
@@ -74,7 +84,7 @@ class Magneto( FreeJob, GetSetItemsMixin ):
 
     max_current = Float(default_value=10e-3, label='max current')
 
-    get_set_items=['__doc__', 'time_data', 'samples_per_channel', 'analog_in_1', 'analog_in_2', 'analog_in_3' ]
+    get_set_items=['__doc__', 'time_data', 'samples_per_channel', 'analog_in_0', 'analog_in_1', 'analog_in_2', 'analog_in_3', 'analog_in_4', 'analog_in_5', 'analog_in_6' ]
 
     traits_view = View(VGroup(HGroup(Item('start_button',   show_label=False),
                                      Item('stop_button',   show_label=False),
@@ -84,6 +94,8 @@ class Magneto( FreeJob, GetSetItemsMixin ):
                                      ),
 
                               HGroup(Item('samples_per_channel'),
+                                     Item('use_trigger'),
+                                     Item('trigger_level'),
 
                                      Item('plot_tpe')
                                      ),
@@ -102,6 +114,7 @@ class Magneto( FreeJob, GetSetItemsMixin ):
 
         self._create_plot()
         self.task_in = task_in
+
         
         self.on_trait_change(self._update_index,    'x_data_plot',    dispatch='ui')
         self.on_trait_change(self._update_value,    'y_data_plot',    dispatch='ui') 
@@ -116,14 +129,30 @@ class Magneto( FreeJob, GetSetItemsMixin ):
 
         self.measurment_stopped = 'false'
         self.task_in.start()
+
+        #self.trig_task.start()
         
         try:
             self.state='run'
             self.time_data = np.array(())
+            self.analog_in_0 = np.array(())
             self.analog_in_1 = np.array(())
             self.analog_in_2 = np.array(())
             self.analog_in_3 = np.array(())
+            self.analog_in_4 = np.array(())
+            self.analog_in_5 = np.array(())
+            self.analog_in_6 = np.array(())
+            intial_d_data = self.task_in.read(number_of_samples_per_channel=self.samples_per_channel)
+            intital_trig_data = self.task_in.read(2)[0]
+            #print('HERE', intial_d_data[0])
+            initial_array=np.zeros(len(intial_d_data[0]))
+            initial_trig_array=np.zeros(1)
+            self.analog_in_0_stack = initial_array
+            self.analog_in_1_stack = initial_array
+            self.analog_in_0 = initial_array
+            self.analog_in_1 = initial_array
             mytime = 0
+            fake_time_data=np.arange(0,len(intial_d_data[0]),1)
             self.skip_first_data()
             while True: 
                 self.measurment_finished = 'false' # Stop button only works while loop is active 
@@ -135,24 +164,52 @@ class Magneto( FreeJob, GetSetItemsMixin ):
                     self.state = 'idle'
                     break
 
-                mytime=mytime+1
-                measured_data = self.task_in.read(number_of_samples_per_channel=self.samples_per_channel)
                 
+                #self.analog_in_0_stack=np.zeros(len(self.task_in.read(number_of_samples_per_channel=self.samples_per_channel))[0])
+
+                if self.use_trigger:
+                    if np.mean(self.task_in.read(2)[0]) > self.trigger_level:
+                        measured_data = self.task_in.read(number_of_samples_per_channel=self.samples_per_channel)
+                        analog_in_0 = measured_data[0]
+                        analog_in_1 = measured_data[1]
+                        self.analog_in_0_stack = np.vstack((self.analog_in_0_stack, analog_in_0))
+                        self.analog_in_1_stack = np.vstack((self.analog_in_1_stack, analog_in_1))
+                        self.analog_in_0          = self.analog_in_0+analog_in_0
+                        self.analog_in_1          = self.analog_in_1+analog_in_1 
+                        self.time_data            = fake_time_data
+                        self.plot_data_on_x()
+                        self.plot_data_on_y()                     
+                if not self.use_trigger:
+                    mytime=mytime+1
+                    measured_data = self.task_in.read(number_of_samples_per_channel=self.samples_per_channel)
+                    analog_in_0 = np.mean(measured_data[0])
+                    analog_in_1 = np.mean(measured_data[1])  
+                    self.analog_in_0          = np.append(self.analog_in_0,     analog_in_0)
+                    self.analog_in_1          = np.append(self.analog_in_1,     analog_in_1)
+                    self.time_data            = np.append(self.time_data,       mytime) 
+                    self.plot_data_on_x()
+                    self.plot_data_on_y()  
                 #AWG CH2 -> Clock, 100 Khz clock. BNC 2110 -> Trigger Counter PFI0/P10
-                analog_in_1 = np.mean(measured_data[0])
-                analog_in_2 = np.mean(measured_data[1])
-                analog_in_3 = np.mean(measured_data[2])
-                self.bias_value = analog_in_1
+
+                #analog_in_2 = np.mean(measured_data[2])
+                #analog_in_3 = np.mean(measured_data[3])
+                #analog_in_4 = np.mean(measured_data[4])
+                #analog_in_5 = np.mean(measured_data[5])
+                #analog_in_6 = np.mean(measured_data[6])
+                
 
                 # fills the storage arrays with the measured data 
-                self.analog_in_1          = np.append(self.analog_in_1,     analog_in_1)
-                self.analog_in_2          = np.append(self.analog_in_2,     analog_in_2)
-                self.analog_in_3          = np.append(self.analog_in_3,     analog_in_3)
-                self.time_data            = np.append(self.time_data,       mytime)
+                
+                
+                #self.analog_in_2          = np.append(self.analog_in_2,     analog_in_2)
+                #self.analog_in_3          = np.append(self.analog_in_3,     analog_in_3)
+                #self.analog_in_4          = np.append(self.analog_in_4,     analog_in_4)
+                #self.analog_in_5          = np.append(self.analog_in_5,     analog_in_5)
+                #self.analog_in_6          = np.append(self.analog_in_6,     analog_in_6)
+               
 
                 # writes the chosen data into the plot arrays
-                self.plot_data_on_x()
-                self.plot_data_on_y()
+
 
                 
             else:
@@ -163,11 +220,13 @@ class Magneto( FreeJob, GetSetItemsMixin ):
         except:
             logging.getLogger().exception('Error in measurement.')
             self.task_in.stop()
+
             self.state = 'error'
 
         finally:
             self.measurment_finished = 'true'
             self.task_in.stop()
+            #self.task_in.close()
 
             self.state = 'done'
 
@@ -205,6 +264,10 @@ class Magneto( FreeJob, GetSetItemsMixin ):
             self.plot.index_axis.title = 'Time (arb. u.)'
             self.x_data_plot = self.time_data
             return
+        elif self.x_axis == 'Channel 0':
+            self.plot.index_axis.title = 'Channel 0 [V]'
+            self.x_data_plot = self.analog_in_0
+            return
         elif self.x_axis == 'Channel 1':
             self.plot.index_axis.title = 'Channel 1 [V]'
             self.x_data_plot = self.analog_in_1
@@ -212,7 +275,6 @@ class Magneto( FreeJob, GetSetItemsMixin ):
         elif self.x_axis == 'Channel 2':
             self.plot.index_axis.title = 'Channel 2 [V]'
             self.x_data_plot = self.analog_in_2
-            return
         elif self.x_axis == 'Channel 3':
             self.plot.index_axis.title = 'Channel 3 [V]'
             self.x_data_plot = self.analog_in_3
@@ -220,17 +282,17 @@ class Magneto( FreeJob, GetSetItemsMixin ):
            
     @on_trait_change('y_axis')
     def _update_naming_y(self):   
-        if self.y_axis == 'Channel 1':
-            self.plot.value_axis.title ='Channel 1 [V]'
+        if self.y_axis == 'Channel 0':
+            self.plot.value_axis.title ='Channel 0 [V]'
+            self.y_data_plot = self.analog_in_0
+            return
+        elif self.y_axis == 'Channel 1':
+            self.plot.value_axis.title = 'Channel 1 [V]'
             self.y_data_plot = self.analog_in_1
             return
         elif self.y_axis == 'Channel 2':
             self.plot.value_axis.title = 'Channel 2 [V]'
-            self.y_data_plot = self.analog_in_2
-            return
-        elif self.y_axis == 'Channel 3':
-            self.plot.value_axis.title = 'Channel 3 [V]'
-            self.y_data_plot =  self.analog_in_3
+            self.y_data_plot =  self.analog_in_2
             return 
         elif self.y_axis == 'Time':
             self.plot.value_axis.title = 'Time arb. u.'
@@ -256,7 +318,7 @@ class Magneto( FreeJob, GetSetItemsMixin ):
     def save_all(self, filename):
         self.save(filename+'.pys')
         self.save(filename+'-ACSII.pys')
-        np.savetxt(filename+'.txt',(self.voltage,self.login_V_data))
+        self.np.savetxt(filename+'.txt',(self.voltage,self.login_V_data))
     
 
     def generate_voltage(self):
