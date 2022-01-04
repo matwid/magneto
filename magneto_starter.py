@@ -89,24 +89,8 @@ def reading_task_callback(task_idx, event_type, num_samples, callback_data):  # 
     data = np.append(data, buffer_in, axis=1) 
 
     return 0  # Absolutely needed for this callback to be well defined (see nidaqmx doc).
-#task_lockin = nidaqmx.Task()
 
-#task_in.ai_channels.add_ai_voltage_chan("Dev3/ai0", max_val=10, min_val=0)
-#task_in.ai_channels.add_ai_voltage_chan("Dev3/ai1", max_val=10, min_val=0)
-#task_in.ai_channels.add_ai_voltage_chan("Dev3/ai1", max_val=10, min_val=0)
-#task_in.ai_channels.add_ai_voltage_chan("Dev3/ai3", max_val=10, min_val=0)
-#task_in.ai_channels.add_ai_voltage_chan("Dev3/ai4", max_val=10, min_val=0)
-#task_in.ai_channels.add_ai_voltage_chan("Dev3/ai5", max_val=10, min_val=0)
-#task_in.ai_channels.add_ai_voltage_chan("Dev3/ai6", max_val=10, min_val=0)
-#trig_task.ai_channels.add_ai_voltage_chan("Dev3/ai3", max_val=10, min_val=0)
-#trig_task.triggers.reference_trigger.cfg_anlg_edge_ref_trig("Dev3/ai4", pretrigger_samples = 10, trigger_slope=nidaqmx.constants.Slope.RISING, trigger_level = 1.61)
-#task_in.ai_term_cfg=TerminalConfiguration.RSE
-#task_in.timing.cfg_samp_clk_timing(rate=1000)     #source of the sample clock, sample rate and the number of samples to acquire
 
-#task_lockin.ai_channels.add_ai_voltage_chan("Dev1/ai1")
-
-#https://stackoverflow.com/questions/56366033/continuous-acquistion-with-nidaqmx
-# Configure and setup the tasks
 task_in = nidaqmx.Task()
 
 cfg_read_task(task_in)
