@@ -37,7 +37,7 @@ class Magneto( FreeJob, GetSetItemsMixin ):
     v_divisions       = Range(low=0, high=1e6,       value=100,     desc='divisions [#]',  label='divisions [#]',   mode='text', auto_set=False, enter_set=True)
     v_reset           = Float(default_value=0, label='reset voltage')
 
-    samples_per_channel = Int(default_value=100, desc='Samples per channel', label='Samples per channel', mode='text', auto_set=False, enter_set=True)
+    samples_per_channel = Int(default_value=10000, desc='Samples per channel', label='Samples per channel', mode='text', auto_set=False, enter_set=True)
     samples_per_trigger = Int(default_value=2, desc='Samples per trigger', label='Samples per trigger', mode='text', auto_set=False, enter_set=True)
     proceed             = Float(default_value=0.0, label='proceed [%]')
  
@@ -45,7 +45,8 @@ class Magneto( FreeJob, GetSetItemsMixin ):
     scale             = Enum('lin','log',value='log', desc='scale')
     plot_tpe          = Enum('line', 'scatter')
 
-    use_trigger       = Bool(True)
+    use_trigger       = Bool(False)
+    append_data        = Bool(True)
     wait_between_trigger = Float(default_value=0.5, label='wait time between trigger')
 
 
@@ -63,9 +64,13 @@ class Magneto( FreeJob, GetSetItemsMixin ):
 
     x_data_plot       = Array()#for ploting
     y_data_plot       = Array()#
+    x_data_plot_fft   = Array()#for ploting
+    y_data_plot_fft   = Array()#
 
     plot_data         = Instance( ArrayPlotData )
     plot              = Instance( Plot )
+    plot_data_fft     = Instance( ArrayPlotData )
+    plot_fft          = Instance( Plot )
 
     bias_button = Button(label='set bias', show_label=False)
     bias_measured_button =  Button(label='measuerd bias', show_label=False)
@@ -86,6 +91,7 @@ class Magneto( FreeJob, GetSetItemsMixin ):
                               HGroup(Item('samples_per_channel'),
                                      Item('use_trigger'),
                                      Item('trigger_level'),
+                                     Item('append_data'),
                                      Item('samples_per_trigger'),
                                      Item('wait_between_trigger'),
 
@@ -96,6 +102,7 @@ class Magneto( FreeJob, GetSetItemsMixin ):
                                      Item('y_axis')
                                      ),                                     
                               Item('plot', editor=ComponentEditor(), show_label=False, resizable=True),
+                              Item('plot_fft', editor=ComponentEditor(), show_label=False, resizable=True),
 
                               ),
                        title='Magneto Software for OPM recording', buttons=[], resizable=True
@@ -105,18 +112,19 @@ class Magneto( FreeJob, GetSetItemsMixin ):
         super(Magneto, self).__init__(**kwargs)
 
         self._create_plot()
+        self._create_plot_fft()
         self.task_in = task_in
 
         
         self.on_trait_change(self._update_index,    'x_data_plot',    dispatch='ui')
         self.on_trait_change(self._update_value,    'y_data_plot',    dispatch='ui') 
+        self.on_trait_change(self._update_index_fft,    'x_data_plot_fft',    dispatch='ui')
+        self.on_trait_change(self._update_value_fft,    'y_data_plot_fft',    dispatch='ui') 
 
     def skip_first_data(self):
         # because of some weird data
-        i=0
-        while i< 50:
-            self.task_in.read(number_of_samples_per_channel=1)
-            i=i+1
+        self.task_in.read(number_of_samples_per_channel=100)
+
 
     def _run(self):
 
@@ -131,18 +139,20 @@ class Magneto( FreeJob, GetSetItemsMixin ):
             self.analog_in_2 = np.array(())
             self.analog_in_3 = np.array(())
 
-            intial_d_data = self.task_in.read(number_of_samples_per_channel=self.samples_per_channel)
+            #intial_d_data = self.task_in.read(number_of_samples_per_channel=self.samples_per_channel)
 
-            initial_array=np.zeros(len(intial_d_data[0]))            
- 
-            self.analog_in_0 = initial_array
-            self.analog_in_1 = initial_array
-            self.analog_in_0_stack = initial_array
-            self.analog_in_1_stack = initial_array
+            initial_array=np.zeros(self.samples_per_channel) 
+                  
+            if self.use_trigger:
+                self.analog_in_0 = initial_array
+                self.analog_in_1 = initial_array
+                self.analog_in_0_stack = initial_array
+                self.analog_in_1_stack = initial_array
             mytime = 0
-            fake_time_data=np.arange(0,len(intial_d_data[0]),1)
+            fake_time_data=np.arange(0,self.samples_per_channel,1)
             self.skip_first_data()
             self.state='run'
+            self.time_data            = fake_time_data
             while True: 
                 self.measurment_finished = 'false' # Stop button only works while loop is active 
 
@@ -161,19 +171,40 @@ class Magneto( FreeJob, GetSetItemsMixin ):
                         self.analog_in_0          = self.analog_in_0+analog_in_0
                         self.analog_in_1          = self.analog_in_1+analog_in_1 
                         self.time_data            = fake_time_data
+                        self.x_data_plot_fft = fake_time_data
+                        self.y_data_plot_fft = self.analog_in_1
                         self.plot_data_on_x()
                         self.plot_data_on_y()
                         time.sleep(self.wait_between_trigger)
 
-                if not self.use_trigger:
+                if not self.use_trigger and not self.append_data:
                     mytime=mytime+1
                     measured_data = self.task_in.read(number_of_samples_per_channel=self.samples_per_channel)
                     self.analog_in_0 = measured_data[0]
                     self.analog_in_1 = measured_data[1]
                     self.time_data            = fake_time_data
+                    self.x_data_plot_fft = np.fft.fftfreq(self.samples_per_channel,d=1)
+                    self.y_data_plot_fft = np.abs(np.fft.fft(self.analog_in_1))
+                    self.x_data_plot_fft=self.x_data_plot_fft[1:]
+                    self.y_data_plot_fft=self.y_data_plot_fft[1:]
+                    print(self.x_data_plot_fft)
                     self.plot_data_on_x()
                     self.plot_data_on_y()  
-                 
+                
+                if not self.use_trigger and self.append_data:
+                    mytime=mytime+1
+                    measured_data = self.task_in.read(number_of_samples_per_channel=self.samples_per_channel)
+                    self.analog_in_0 = np.append(self.analog_in_0, measured_data[0])
+                    self.analog_in_1 = np.append(self.analog_in_1, measured_data[1])
+                    self.time_data   = np.arange(0, len(self.analog_in_1))
+                    self.x_data_plot_fft = np.fft.fftfreq(len(self.time_data),d=1)
+                    self.y_data_plot_fft = np.abs(np.fft.fft(self.analog_in_1))
+                    self.x_data_plot_fft=self.x_data_plot_fft[1:]
+                    self.y_data_plot_fft=self.y_data_plot_fft[1:]
+                    print(self.x_data_plot_fft)
+                    self.plot_data_on_x()
+                    self.plot_data_on_y()
+
             else:
                 self.state='done'
 
@@ -214,7 +245,16 @@ class Magneto( FreeJob, GetSetItemsMixin ):
         plot.tools.append(SaveTool(plot))
         self.plot_data = plot_data
         self.plot = plot
-        
+
+    def _create_plot_fft(self):
+        plot_data = ArrayPlotData(x_data_plot=np.array(()), y_data_plot=np.array(()))
+        plot = Plot(plot_data, padding=8, padding_left=64, padding_bottom=64)
+        plot.plot(('x_data_plot','y_data_plot'), color='blue', type='line')
+        plot.value_axis.title = 'Voltage [V]'
+        plot.index_axis.title = 'Time (arb. u.)'
+        plot.tools.append(SaveTool(plot))
+        self.plot_data_fft = plot_data
+        self.plot_fft = plot        
         
     @on_trait_change('x_axis')
     def _update_naming_x(self): 
@@ -262,12 +302,19 @@ class Magneto( FreeJob, GetSetItemsMixin ):
         
         self.plot_data_on_x()
         self.plot_data.set_data('x_data_plot', new)
-
+ 
 
     def _update_value(self, new):
         self.plot_data_on_y()
         self.plot_data.set_data('y_data_plot', new)
    
+   
+    def _update_index_fft(self, new):        
+        self.plot_data_fft.set_data('x_data_plot', new)
+
+
+    def _update_value_fft(self, new):
+        self.plot_data_fft.set_data('y_data_plot', new)
     
     def save_plot(self, filename):
         save_figure(self.plot, filename)
@@ -278,16 +325,6 @@ class Magneto( FreeJob, GetSetItemsMixin ):
         self.save(filename+'-ACSII.pys')
         np.savetxt(filename+'.txt',(self.voltage,self.login_V_data))
     
-
-    def generate_voltage(self):
-        if self.scale == 'lin':
-            mesh = np.arange(self.v_begin, self.v_end, self.v_delta)
-            return mesh
-        if self.scale == 'log':
-            difference = self.v_end-self.v_begin
-            temp_mesh = np.logspace(0, np.log10(np.abs(difference)), self.v_divisions, base=10.0)
-            mesh = temp_mesh - np.abs(difference)
-            return mesh
 
 
     def plot_data_on_x(self):
