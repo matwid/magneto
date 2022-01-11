@@ -198,7 +198,7 @@ class GetSetItemsMixin( HasTraits ):
                   
             except:
                 logging.getLogger().warning("failed to set item '"+key+"'") 
-        self.array_formation()            
+               
 
     def get_items(self, keys=None):
         if keys is None:
@@ -212,18 +212,7 @@ class GetSetItemsMixin( HasTraits ):
                 d[key] = attr
         return d
     
-    def array_formation(self):
-        self.hall_V_data        = getattr(self, 'hall_voltage')
-        self.login_V_data       = getattr(self, 'lockin_data')
-        self.control_V_data     = getattr(self, 'voltage')
 
-        self.plot_data_on_x()
-        self.plot_data_on_y()
-        
-        self._update_naming_x()
-        self._update_naming_y()
-
-        self._create_plot()
        
     
     def save(self, filename):

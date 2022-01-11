@@ -63,20 +63,20 @@ sampling_freq_in = 1000  # in Hz
 buffer_in_size = 100
 bufsize_callback = buffer_in_size
 buffer_in_size_cfg = round(buffer_in_size * 1)  # clock configuration
-chans_in =2
+chans_in =3
 
 # Initialize data placeholders
 buffer_in = np.zeros((chans_in, buffer_in_size))
-data = np.zeros((chans_in, 2))  # will contain a first column with zeros but that's fine
+data = np.zeros((chans_in, 3))  # will contain a first column with zeros but that's fine
 
 
 def cfg_read_task(acquisition):  # uses above parameters
     acquisition.ai_channels.add_ai_voltage_chan("Dev3/ai0", max_val=2.5, min_val=0)  # has to match with chans_in
     acquisition.ai_channels.add_ai_voltage_chan("Dev3/ai1", max_val=10, min_val=0)  # has to match with chans_in
+    acquisition.ai_channels.add_ai_voltage_chan("Dev3/ai2", max_val=10, min_val=0)  # has to match with chans_in
     acquisition.timing.cfg_samp_clk_timing(rate=sampling_freq_in, sample_mode=constants.AcquisitionType.CONTINUOUS,
                                            samps_per_chan=buffer_in_size_cfg)
     
-
 
 def reading_task_callback(task_idx, event_type, num_samples, callback_data):  # bufsize_callback is passed to num_samples
     global data
@@ -94,6 +94,7 @@ def reading_task_callback(task_idx, event_type, num_samples, callback_data):  # 
 task_in = nidaqmx.Task()
 
 cfg_read_task(task_in)
+
 stream_in = AnalogMultiChannelReader(task_in.in_stream)
 task_in.register_every_n_samples_acquired_into_buffer_event(bufsize_callback, reading_task_callback)
 
@@ -103,6 +104,4 @@ magneto = measurements.magneto.Magneto(task_in)
 #########################################
 # fire up the GUI
 #########################################
-
-
 magneto.configure_traits()
