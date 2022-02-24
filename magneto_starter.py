@@ -63,7 +63,7 @@ from nidaqmx import constants
 sampling_freq_in = 1000  # in Hz default= 1000
 buffer_in_size = 100
 bufsize_callback = buffer_in_size
-buffer_in_size_cfg = round(buffer_in_size * 1)  # clock configuration
+buffer_in_size_cfg = round(buffer_in_size)  # clock configuration
 chans_in =3
 
 # Initialize data placeholders
@@ -73,9 +73,9 @@ data = np.zeros((chans_in, 3))  # will contain a first column with zeros but tha
 # uses above parameters
 # added channels have to match with chans_in
 def cfg_read_task(acquisition):  
-    acquisition.ai_channels.add_ai_voltage_chan("Dev3/ai0", max_val=2.5, min_val=0)  
-    acquisition.ai_channels.add_ai_voltage_chan("Dev3/ai1", max_val=10, min_val=0)
-    acquisition.ai_channels.add_ai_voltage_chan("Dev3/ai2", max_val=10, min_val=0)
+    acquisition.ai_channels.add_ai_voltage_chan("Dev3/ai0", min_val=-10, max_val=+10)  
+    acquisition.ai_channels.add_ai_voltage_chan("Dev3/ai1", min_val=-10, max_val=+10)
+    acquisition.ai_channels.add_ai_voltage_chan("Dev3/ai2", min_val=-10, max_val=+10)
     acquisition.timing.cfg_samp_clk_timing(rate=sampling_freq_in, sample_mode=constants.AcquisitionType.CONTINUOUS,
                                            samps_per_chan=buffer_in_size_cfg)
     
