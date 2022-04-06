@@ -60,6 +60,7 @@ from nidaqmx import constants
 # create measurements
 #########################################
 
+trigger_bool = 0 #set 0/1 for trigger active/inactive
 sampling_freq_in = 1000  # in Hz default= 1000
 buffer_in_size = 100
 bufsize_callback = buffer_in_size
@@ -72,12 +73,16 @@ data = np.zeros((chans_in, 3))  # will contain a first column with zeros but tha
 
 # uses above parameters
 # added channels have to match with chans_in
-def cfg_read_task(acquisition):  
+def cfg_read_task(acquisition):
+    acquisition.ai_channels.add_ai_voltage_chan("Dev3/ai7", min_val=-10, max_val=+10)
     acquisition.ai_channels.add_ai_voltage_chan("Dev3/ai0", min_val=-10, max_val=+10)  
     acquisition.ai_channels.add_ai_voltage_chan("Dev3/ai1", min_val=-10, max_val=+10)
     acquisition.ai_channels.add_ai_voltage_chan("Dev3/ai2", min_val=-10, max_val=+10)
     acquisition.timing.cfg_samp_clk_timing(rate=sampling_freq_in, sample_mode=constants.AcquisitionType.CONTINUOUS,
                                            samps_per_chan=buffer_in_size_cfg)
+
+def task_trig(task_in):
+    task_in.triggers.start_trigger.cfg_anlg_edge_start_trig(trigger_source='Dev3/ai7', trigger_slope=Slope.RISING, trigger_level=1.5)
     
 def reading_task_callback(task_idx, event_type, num_samples, callback_data):  # bufsize_callback is passed to num_samples
     global data
@@ -94,6 +99,9 @@ def reading_task_callback(task_idx, event_type, num_samples, callback_data):  # 
 
 task_in = nidaqmx.Task()
 cfg_read_task(task_in)
+if trigger_bool:
+    task_trig(task_in)
+
 stream_in = AnalogMultiChannelReader(task_in.in_stream)
 task_in.register_every_n_samples_acquired_into_buffer_event(bufsize_callback, reading_task_callback)
 import measurements.magneto
